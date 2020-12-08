@@ -18,6 +18,18 @@ $ tree . ├── crackme_1 │ ├── crackme1 │ └── flag.txt ├
     </item>
     
     <item>
+      <title>Inclusion</title>
+      <link>/posts/inclusion/</link>
+      <pubDate>Mon, 16 Mar 2020 18:42:36 +0100</pubDate>
+      
+      <guid>/posts/inclusion/</guid>
+      <description>Hi guys, after long time I have 5 minutes for playing game, so let&amp;rsquo;s play. I see new game called Inclusion with describe A beginner level LFI challenge. Yes, this is something I want to play and have been done quick.
+So I am starting VPN tunnel to our playground and click on magic button Deploy machine.
+As always first scan ports opened on the machine.
+$ nmap -T4 -sV 10.</description>
+    </item>
+    
+    <item>
       <title>Bookface</title>
       <link>/posts/bookface/</link>
       <pubDate>Mon, 10 Feb 2020 14:50:43 +0100</pubDate>
