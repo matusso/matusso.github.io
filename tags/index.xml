@@ -6,17 +6,67 @@
     <description>Recent content in Tags on .burso</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Feb 2020 15:33:06 +0100</lastBuildDate>
-    
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 07 Dec 2020 19:06:00 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ctf</title>
       <link>/tags/ctf/</link>
-      <pubDate>Thu, 06 Feb 2020 15:33:06 +0100</pubDate>
+      <pubDate>Mon, 07 Dec 2020 19:06:00 +0100</pubDate>
       
       <guid>/tags/ctf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elfutils</title>
+      <link>/tags/elfutils/</link>
+      <pubDate>Mon, 07 Dec 2020 19:06:00 +0100</pubDate>
+      
+      <guid>/tags/elfutils/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IDA</title>
+      <link>/tags/ida/</link>
+      <pubDate>Mon, 07 Dec 2020 19:06:00 +0100</pubDate>
+      
+      <guid>/tags/ida/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RE</title>
+      <link>/tags/re/</link>
+      <pubDate>Mon, 07 Dec 2020 19:06:00 +0100</pubDate>
+      
+      <guid>/tags/re/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tryhackme</title>
+      <link>/tags/tryhackme/</link>
+      <pubDate>Mon, 07 Dec 2020 19:06:00 +0100</pubDate>
+      
+      <guid>/tags/tryhackme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LFI</title>
+      <link>/tags/lfi/</link>
+      <pubDate>Mon, 16 Mar 2020 18:42:36 +0100</pubDate>
+      
+      <guid>/tags/lfi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>socat</title>
+      <link>/tags/socat/</link>
+      <pubDate>Mon, 16 Mar 2020 18:42:36 +0100</pubDate>
+      
+      <guid>/tags/socat/</guid>
       <description></description>
     </item>
     
@@ -44,15 +94,6 @@
       <pubDate>Thu, 06 Feb 2020 15:33:06 +0100</pubDate>
       
       <guid>/tags/sqli/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tryhackme</title>
-      <link>/tags/tryhackme/</link>
-      <pubDate>Thu, 06 Feb 2020 15:33:06 +0100</pubDate>
-      
-      <guid>/tags/tryhackme/</guid>
       <description></description>
     </item>
     
