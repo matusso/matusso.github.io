@@ -18,15 +18,15 @@ $ tree . ├── crackme_1 │ ├── crackme1 │ └── flag.txt ├
     </item>
     
     <item>
-      <title>Inclusion</title>
-      <link>/posts/inclusion/</link>
-      <pubDate>Mon, 16 Mar 2020 18:42:36 +0100</pubDate>
+      <title>Bookface</title>
+      <link>/posts/bookface/</link>
+      <pubDate>Mon, 10 Feb 2020 14:50:43 +0100</pubDate>
       
-      <guid>/posts/inclusion/</guid>
-      <description>Hi guys, after long time I have 5 minutes for playing game, so let&amp;rsquo;s play. I see new game called Inclusion with describe A beginner level LFI challenge. Yes, this is something I want to play and have been done quick.
-So I am starting VPN tunnel to our playground and click on magic button Deploy machine.
-As always first scan ports opened on the machine.
-$ nmap -T4 -sV 10.</description>
+      <guid>/posts/bookface/</guid>
+      <description>Before we start, read more about following tools &amp;amp; vulnerabilities. It will contains in this CTF
+ hydra screen - CVE-2017-5618 knock  and also you can read more about additional security method called port knocking
+So let&amp;rsquo;s start as usual with nmap.
+nmap -F --top-ports 10 -sV 10.10.219.90 Starting Nmap 7.80 ( https://nmap.org ) at 2020-02-10 16:37 CET Stats: 0:00:07 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan Service scan Timing: About 0.</description>
     </item>
     
     <item>
