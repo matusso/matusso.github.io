@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on .burso</title>
+    <link>/ctf/</link>
+    <description>Recent content in Notes on .burso</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020, Root; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 07 Dec 2020 19:06:00 +0100</lastBuildDate><atom:link href="/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reversing ELF</title>
+      <link>/ctf/reverselfiles/</link>
+      <pubDate>Mon, 07 Dec 2020 19:06:00 +0100</pubDate>
+      
+      <guid>/ctf/reverselfiles/</guid>
+      <description>Hi, today I would like to show you how to solve easy RE CTF and how to start with RE, my directory after finish all challenges looks following:
+$ tree . ├── crackme_1 │ ├── crackme1 │ └── flag.txt ├── crackme_2 │ ├── crackme2 │ └── flag.txt ├── crackme_3 │ ├── crackme3 │ └── flag.txt ├── crackme_4 │ ├── crackme4 │ ├── flag.txt │ └── gdb_cmd ├── crackme_5 │ ├── crackme5 │ ├── flag.</description>
+    </item>
+    
+    <item>
+      <title>Inclusion</title>
+      <link>/ctf/inclusion/</link>
+      <pubDate>Mon, 16 Mar 2020 18:42:36 +0100</pubDate>
+      
+      <guid>/ctf/inclusion/</guid>
+      <description>Hi guys, after long time I have 5 minutes for playing game, so let&amp;rsquo;s play. I see new game called Inclusion with describe A beginner level LFI challenge. Yes, this is something I want to play and have been done quick.
+So I am starting VPN tunnel to our playground and click on magic button Deploy machine.
+As always first scan ports opened on the machine.
+$ nmap -T4 -sV 10.</description>
+    </item>
+    
+    <item>
+      <title>Bookface</title>
+      <link>/ctf/bookface/</link>
+      <pubDate>Mon, 10 Feb 2020 14:50:43 +0100</pubDate>
+      
+      <guid>/ctf/bookface/</guid>
+      <description>Before we start, read more about following tools &amp;amp; vulnerabilities. It will contains in this CTF
+  hydra  screen - CVE-2017-5618  knock  and also you can read more about additional security method called port knocking
+So let&amp;rsquo;s start as usual with nmap.
+nmap -F --top-ports 10 -sV 10.10.219.90 Starting Nmap 7.80 ( https://nmap.org ) at 2020-02-10 16:37 CET Stats: 0:00:07 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan Service scan Timing: About 0.</description>
+    </item>
+    
+    <item>
+      <title>Daily Bugle</title>
+      <link>/ctf/daily-bugle/</link>
+      <pubDate>Thu, 06 Feb 2020 15:33:06 +0100</pubDate>
+      
+      <guid>/ctf/daily-bugle/</guid>
+      <description>Hi guys, today we look at CTF called Daily Bugle and we try to gain root priviledges. :) Let&amp;rsquo;s play.
+NOTICE: (SPOILER!!) If you would like to solve it by yourself, don&amp;rsquo;t read this post!
+[Task 1] First question is pretty simple. Open the article and you can find the answer
+Access the web server, who robbed the bank?
+ spiderman  [Task 2] $ curl http://10.10.86.172/media/system/js/mootools-more.js 2&amp;gt;/dev/null | grep MooTools.</description>
+    </item>
+    
+    <item>
+      <title>How find a vulnerable server on the internet?</title>
+      <link>/ctf/citrix-vulnerability/</link>
+      <pubDate>Fri, 24 Jan 2020 12:24:40 +0100</pubDate>
+      
+      <guid>/ctf/citrix-vulnerability/</guid>
+      <description>NOTICE: Educational purposes only!
+Hi, I want to show you how easy it is to find a vulnerable server on the internet. Okey guys, so now, firstly we need to have some TOR client for anonymity ;) Before we begin, look at the following tools
+  tor  nyx  proxychains-ng  shodan  curl  nmap  $ tor &amp;amp; $ nyx -i 127.0.0.1:9052 Then we can test, if the tor is working correctly with proxychains</description>
+    </item>
+    
+    <item>
+      <title>OSCE Prologue or How to get Secret key to CTP?</title>
+      <link>/ctf/osce-prologue/</link>
+      <pubDate>Wed, 22 Jan 2020 14:32:59 +0100</pubDate>
+      
+      <guid>/ctf/osce-prologue/</guid>
+      <description>If you want to register to CTP, you will need something they call Registration Code and Secret Key. So firstly, there is interesting file /fc4.js
+function fc4me(srvstr) { if(!document.pleazfc4me.email.value || !document.pleazfc4me.securitystring.value) { alert(&amp;#34;Please fill in all the required fields!&amp;#34;); return false; } if(document.pleazfc4me.securitystring.value != hexMD5(&amp;#34;\x74\x72\x79\x68\x61\x72\x64\x65\x72&amp;#34;+srvstr)) { alert(&amp;#34;Registration Authorization String not accepted! Try Harder! &amp;#34;); return false; } else { document.pleazfc4me.submit(); } } So all you need to do is setup some js variables in browser console and call fc4me(srvstr)</description>
+    </item>
+    
+    <item>
+      <title>Notes from #34c3</title>
+      <link>/ctf/34c3-tuwat/</link>
+      <pubDate>Wed, 10 Jan 2018 19:25:41 +0100</pubDate>
+      
+      <guid>/ctf/34c3-tuwat/</guid>
+      <description>moongen
+   nmap-vulners is great script for automatically find possible issues of services on opened ports. It&amp;rsquo;s partly replacing Nessus, but it&amp;rsquo;s open source. It is using vulners database for finding possible vulnerabilities. Vulners is also great tool, because it allows check all your installed packages. You can find it in audit section.
+   taskwarrior
+   shamir secret sharing
+   restic</description>
+    </item>
+    
+    <item>
+      <title>.grsec patch size_overflow</title>
+      <link>/ctf/grsec-patch-size-overflow/</link>
+      <pubDate>Fri, 29 Apr 2016 20:58:10 +0100</pubDate>
+      
+      <guid>/ctf/grsec-patch-size-overflow/</guid>
+      <description>I think you sure know linux kernel patches from grsecurity. In follow tweet you can read about size overflow in patch from grsec.
+This is the fail in the @grsecurity patch. How did this pass review? ... a security patchset has code review, right? pic.twitter.com/gincZXdQrU
+&amp;mdash; Hector Martin (@marcan42) April 25, 2016  So what is the problem in this patch? When you change int (signed value) to size_t (unsigned value), you have to be sure you are saving unsigned value.</description>
+    </item>
+    
+  </channel>
+</rss>
