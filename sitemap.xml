@@ -93,6 +93,31 @@
   </url>
   
   <url>
+    <loc>/ctf/thm/blue/</loc>
+    <lastmod>2020-02-12T14:35:31+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/eternalblue/</loc>
+    <lastmod>2020-02-12T14:35:31+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hashcat/</loc>
+    <lastmod>2020-02-12T14:35:31+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/metasploit/</loc>
+    <lastmod>2020-02-12T14:35:31+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ms17-010/</loc>
+    <lastmod>2020-02-12T14:35:31+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/ctf/thm/bookface/</loc>
     <lastmod>2020-02-10T14:50:43+01:00</lastmod>
   </url>

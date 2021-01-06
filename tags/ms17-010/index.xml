@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MS17-010 on .burso</title>
+    <link>/tags/ms17-010/</link>
+    <description>Recent content in MS17-010 on .burso</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020, Root; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 12 Feb 2020 14:35:31 +0100</lastBuildDate><atom:link href="/tags/ms17-010/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blue</title>
+      <link>/ctf/thm/blue/</link>
+      <pubDate>Wed, 12 Feb 2020 14:35:31 +0100</pubDate>
+      
+      <guid>/ctf/thm/blue/</guid>
+      <description>Hello everyone, today we look at the CTF with MS17-010 vulnerability. So let&amp;rsquo;s start with nmap scan.
+$ nmap -sV -p0-1000 --script vuln 10.10.223.243 Starting Nmap 7.80 ( https://nmap.org ) at 2020-02-12 14:40 CET Nmap scan report for 10.10.223.243 Host is up (0.043s latency). Not shown: 998 closed ports PORT STATE SERVICE VERSION 135/tcp open msrpc Microsoft Windows RPC |_clamav-exec: ERROR: Script execution failed (use -d to debug) 139/tcp open netbios-ssn Microsoft Windows netbios-ssn |_clamav-exec: ERROR: Script execution failed (use -d to debug) 445/tcp open microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP) |_clamav-exec: ERROR: Script execution failed (use -d to debug) Service Info: Host: JON-PC; OS: Windows; CPE: cpe:/o:microsoft:windows Host script results: |_samba-vuln-cve-2012-1182: NT_STATUS_ACCESS_DENIED |_smb-vuln-ms10-054: false |_smb-vuln-ms10-061: NT_STATUS_ACCESS_DENIED | smb-vuln-ms17-010: | VULNERABLE: | Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010) | State: VULNERABLE | IDs: CVE:CVE-2017-0143 | Risk factor: HIGH | A critical remote code execution vulnerability exists in Microsoft SMBv1 | servers (ms17-010).</description>
+    </item>
+    
+  </channel>
+</rss>
