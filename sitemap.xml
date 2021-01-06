@@ -204,6 +204,11 @@
   </url>
   
   <url>
+    <loc>/about_me/</loc>
+    <lastmod>2018-03-02T20:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/cnf/</loc>
     <lastmod>2018-01-10T19:25:41+01:00</lastmod>
     <priority>0</priority>
@@ -250,13 +255,8 @@
   </url>
   
   <url>
-    <loc>/about_me/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
-    <priority>0</priority>
+    <lastmod>1337-01-03T19:32:05+07:00</lastmod>
   </url>
   
   <url>

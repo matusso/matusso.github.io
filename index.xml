@@ -105,6 +105,16 @@ function fc4me(srvstr) { if(!document.pleazfc4me.email.value || !document.pleazf
     </item>
     
     <item>
+      <title>aboutme</title>
+      <link>/about_me/</link>
+      <pubDate>Fri, 02 Mar 2018 20:00:00 +0100</pubDate>
+      
+      <guid>/about_me/</guid>
+      <description>Matus Bursa  security engineer, coder and dark net reconnoitrer
+projects   libssllabs - c++ library for work with ssllabs api  gsreport - G Suite admin report tool occu - privacy file upload  nmap-ip-gen - ip addresses list dynamically generated from cloud for nmap (currently supported only gcp)  contact  Email: burso@burso.eu PGP fingerprint: 81C8 28A3 2247 957F 5E3D 8E50 ECAF E554 694A D778 key Github: matusso Twitter: @BursaMatus  ctf   tryhackme  hackthebox  wechall  </description>
+    </item>
+    
+    <item>
       <title>Notes from #34c3</title>
       <link>/cnf/34c3-tuwat/</link>
       <pubDate>Wed, 10 Jan 2018 19:25:41 +0100</pubDate>
@@ -129,19 +139,9 @@ This is the fail in the @grsecurity patch. How did this pass review? ... a secur
     </item>
     
     <item>
-      <title></title>
-      <link>/about_me/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about_me/</guid>
-      <description>Matus Bursa  security engineer, coder and dark net reconnoitrer
-projects   libssllabs - c++ library for work with ssllabs api  gsreport - G Suite admin report tool occu - privacy file upload  nmap-ip-gen - ip addresses list dynamically generated from cloud for nmap (currently supported only gcp)  contact  Email: burso@burso.eu PGP fingerprint: 81C8 28A3 2247 957F 5E3D 8E50 ECAF E554 694A D778 key Github: matusso Twitter: @BursaMatus  ctf   tryhackme  hackthebox  wechall  </description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>tags</title>
       <link>/tags/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 03 Jan 1337 19:32:05 +0700</pubDate>
       
       <guid>/tags/</guid>
       <description></description>
