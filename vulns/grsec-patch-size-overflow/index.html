@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang=en><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> .grsec patch size_overflow - .burso</title>
+    <meta name="description" content="I think you sure know linux kernel patches from grsecurity. In follow tweet you can read about size overflow in patch from grsec.
+This is the fail in the @grsecurity patch. How did this pass review? ... a security patchset has code review, right? pic.twitter.com/gincZXdQrU
+&mdash; Hector Martin (@marcan42) April 25, 2016  So what is the problem in this patch? When you change int (signed value) to size_t (unsigned value), you have to be sure you are saving unsigned value.">
+    <link rel="canonical" href="/vulns/grsec-patch-size-overflow/">
+    <link rel="icon" href="/img/favicon.jpg" type="image/gif" sizes="16x16"> 
+    <meta property="og:title" content=".grsec patch size_overflow">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="/vulns/grsec-patch-size-overflow/">
+    <meta property="og:description" content="I think you sure know linux kernel patches from grsecurity. In follow tweet you can read about size overflow in patch from grsec.
+This is the fail in the @grsecurity patch. How did this pass review? ... a security patchset has code review, right? pic.twitter.com/gincZXdQrU
+&mdash; Hector Martin (@marcan42) April 25, 2016  So what is the problem in this patch? When you change int (signed value) to size_t (unsigned value), you have to be sure you are saving unsigned value.">
+    <meta property="og:site_name" content=".burso">
+    <link rel="stylesheet" href="/css/main.min.7fdf1d02dafd1a6eb5cfd0d707e17e33515b866f5d305a0ab01a4095577484fe.css" integrity="sha256-f98dAtr9Gm61z9DXB&#43;F&#43;M1Fbhm9dMFoKsBpAlVd0hP4=">
+    <meta name="generator" content="Hugo 0.80.0" />
+    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
+    
+</head>
+<body><header class="site-header">
+    <nav class="site-nav" role="navigation" aria-label="breadcrumb">
+    <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb"><li class="breadcrumb-item  " 
+  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+  <a itemtype="https://schema.org/Thing" itemprop="item" href="/">
+    <span itemprop="name">.burso</span>
+  </a>
+  <meta itemprop="position" content="0" />
+</li>/<li class="breadcrumb-item  " 
+  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+  <a itemtype="https://schema.org/Thing" itemprop="item" href="/vulns/">
+    <span itemprop="name">vulns</span>
+  </a>
+  <meta itemprop="position" content="0" />
+</li>/<li class="breadcrumb-item active hidden" aria-current="page"
+  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+  <a itemtype="https://schema.org/Thing" itemprop="item" href="/vulns/grsec-patch-size-overflow/">
+    <span itemprop="name">grsec-patch-size-overflow</span>
+  </a>
+  <meta itemprop="position" content="1" />
+</li></ol>
+    </nav>
+    <h1 class="site-title hidden">
+		<a href="/">.burso</a>
+    </h1>
+</header>
+<main id="content">
+<article role="article" class="content post h-entry" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">        
+        <h2 class="post-title" itemprop="name headline">.grsec patch size_overflow</h2>
+        <span class="post-meta">
+            <time class="date-published" datetime="2016-04-29T20:58:10&#43;07:00" itemprop="datePublished">
+                Fri, 29 Apr 2016
+            </time>
+            
+            <ul id="tags">
+              
+                <li> <a href="/tags/grsec">#grsec</a> </li>
+              
+                <li> <a href="/tags/kernel">#kernel</a> </li>
+              
+                <li> <a href="/tags/dos">#DoS</a> </li>
+              
+            </ul>
+            
+        </span>
+    </header>
+    <div class="post-content" itemprop="articleBody">
+        <p>I think you sure know linux kernel patches from 
+<a href="https://grsecurity.net/" target="_blank" rel="nofollow noreferrer noopener">grsecurity</a>.
+In follow tweet you can read about size overflow in patch from grsec.</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is the fail in the <a href="https://twitter.com/grsecurity?ref_src=twsrc%5Etfw">@grsecurity</a> patch. How did this pass review? ... a security patchset has code review, right? <a href="https://t.co/gincZXdQrU">pic.twitter.com/gincZXdQrU</a></p>&mdash; Hector Martin (@marcan42) <a href="https://twitter.com/marcan42/status/724749571495075840?ref_src=twsrc%5Etfw">April 25, 2016</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>So what is the problem in this patch? When you change int (signed value) to size_t (unsigned value), you have to be sure you are saving unsigned value.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C" data-lang="C">room <span style="color:#f92672">=</span> N_TTY_BUF_SIZE <span style="color:#f92672">-</span> (ldata<span style="color:#f92672">-&gt;</span>read_head <span style="color:#f92672">-</span> tail);
+</code></pre></div><p>And what happens when the right site will have negative value? Let’s show it on the very simple example</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cat test.c
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C" data-lang="C"><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(<span style="color:#66d9ef">void</span>) {
+        size_t a <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">15</span>;
+        printf(<span style="color:#e6db74">&#34;%lu</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, a);
+        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+}
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gcc -Wall test.c -o test
+$ ./test
+<span style="color:#ae81ff">18446744073709551601</span>
+</code></pre></div><p>Small negative value (for example: -15) sets the big unsigned value. For better understand you can read this. And this problem can cause local DoS attack on your system via 100%cpu usage.</p>
+<p><strong>SOLUTION</strong></p>
+<p>You have to check, if the value is not negative, so we can use ternary operator for this quick fix</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C" data-lang="C">room <span style="color:#f92672">=</span> ((N_TTY_BUF_SIZE <span style="color:#f92672">-</span> (ldata<span style="color:#f92672">-&gt;</span>read_head <span style="color:#f92672">-</span> tail)) <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) <span style="color:#f92672">?</span> N_TTY_BUF_SIZE <span style="color:#f92672">-</span> (ldata<span style="color:#f92672">-&gt;</span>read_head <span style="color:#f92672">-</span> tail) <span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>;
+</code></pre></div>
+    </div>
+</article>
+<div class="pagination">
+    
+    
+    <div class="next"> <a href="/vulns/citrix-vulnerability/">Next Post</a> </div>
+    
+</div>
+
+
+        </main><footer class="site-footer">
+	<span class="left">Gohugo/0.80.0 </span> 
+	<span class="right">
+		<em>.burso</em>
+	</span>
+</footer>
+</body>
+</html>

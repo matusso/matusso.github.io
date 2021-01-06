@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.burso</title>
+    <link>/ctf/re/tryhackme.com/</link>
+    <description>Recent content on .burso</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2020, Root; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 07 Dec 2020 19:06:00 +0100</lastBuildDate><atom:link href="/ctf/re/tryhackme.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reversing ELF</title>
+      <link>/ctf/re/tryhackme.com/reverselfiles/</link>
+      <pubDate>Mon, 07 Dec 2020 19:06:00 +0100</pubDate>
+      
+      <guid>/ctf/re/tryhackme.com/reverselfiles/</guid>
+      <description>Hi, today I would like to show you how to solve easy RE CTF and how to start with RE, my directory after finish all challenges looks following:
+$ tree . ├── crackme_1 │ ├── crackme1 │ └── flag.txt ├── crackme_2 │ ├── crackme2 │ └── flag.txt ├── crackme_3 │ ├── crackme3 │ └── flag.txt ├── crackme_4 │ ├── crackme4 │ ├── flag.txt │ └── gdb_cmd ├── crackme_5 │ ├── crackme5 │ ├── flag.</description>
+    </item>
+    
+  </channel>
+</rss>

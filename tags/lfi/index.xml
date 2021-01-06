@@ -10,10 +10,10 @@
     <lastBuildDate>Mon, 16 Mar 2020 18:42:36 +0100</lastBuildDate><atom:link href="/tags/lfi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Inclusion</title>
-      <link>/ctf/inclusion/</link>
+      <link>/ctf/thm/inclusion/</link>
       <pubDate>Mon, 16 Mar 2020 18:42:36 +0100</pubDate>
       
-      <guid>/ctf/inclusion/</guid>
+      <guid>/ctf/thm/inclusion/</guid>
       <description>Hi guys, after long time I have 5 minutes for playing game, so let&amp;rsquo;s play. I see new game called Inclusion with describe A beginner level LFI challenge. Yes, this is something I want to play and have been done quick.
 So I am starting VPN tunnel to our playground and click on magic button Deploy machine.
 As always first scan ports opened on the machine.
