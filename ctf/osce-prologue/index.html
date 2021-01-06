@@ -7,6 +7,7 @@
     <meta name="description" content="If you want to register to CTP, you will need something they call Registration Code and Secret Key. So firstly, there is interesting file /fc4.js
 function fc4me(srvstr) { if(!document.pleazfc4me.email.value || !document.pleazfc4me.securitystring.value) { alert(&#34;Please fill in all the required fields!&#34;); return false; } if(document.pleazfc4me.securitystring.value != hexMD5(&#34;\x74\x72\x79\x68\x61\x72\x64\x65\x72&#34;&#43;srvstr)) { alert(&#34;Registration Authorization String not accepted! Try Harder! &#34;); return false; } else { document.pleazfc4me.submit(); } } So all you need to do is setup some js variables in browser console and call fc4me(srvstr)">
     <link rel="canonical" href="/ctf/osce-prologue/">
+    <link rel="icon" href="img/favicon.jpg" type="image/gif" sizes="16x16"> 
     <meta property="og:title" content="OSCE Prologue or How to get Secret key to CTP?">
     <meta property="og:type" content="article">
     <meta property="og:url" content="/ctf/osce-prologue/">
