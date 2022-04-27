@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>hacking on .burso | blog about ctf &amp; anything else</title>
-    <link>burso.eu/tags/hacking/</link>
+    <link>www.burso.eu/tags/hacking/</link>
     <description>Recent content in hacking on .burso | blog about ctf &amp; anything else</description>
     <image>
-      <url>burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 24 Jan 2020 12:24:40 +0100</lastBuildDate><atom:link href="burso.eu/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Jan 2020 12:24:40 +0100</lastBuildDate><atom:link href="www.burso.eu/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How find a vulnerable server on the internet?</title>
-      <link>burso.eu/posts/citrix-vulnerability/</link>
+      <link>www.burso.eu/posts/citrix-vulnerability/</link>
       <pubDate>Fri, 24 Jan 2020 12:24:40 +0100</pubDate>
       
-      <guid>burso.eu/posts/citrix-vulnerability/</guid>
+      <guid>www.burso.eu/posts/citrix-vulnerability/</guid>
       <description>NOTICE: Educational purposes only!
 Hi, I want to show you how easy it is to find a vulnerable server on the internet. Okey guys, so now, firstly we need to have some TOR client for anonymity ;) Before we begin, look at the following tools
  tor nyx proxychains-ng shodan curl nmap  $ tor &amp;amp; $ nyx -i 127.0.0.1:9052 Then we can test, if the tor is working correctly with proxychains</description>
@@ -23,20 +23,20 @@ Hi, I want to show you how easy it is to find a vulnerable server on the interne
     
     <item>
       <title>OSCE Prologue or How to get Secret key to CTP?</title>
-      <link>burso.eu/posts/osce-prologue/</link>
+      <link>www.burso.eu/posts/osce-prologue/</link>
       <pubDate>Wed, 22 Jan 2020 14:32:59 +0100</pubDate>
       
-      <guid>burso.eu/posts/osce-prologue/</guid>
+      <guid>www.burso.eu/posts/osce-prologue/</guid>
       <description>If you want to register to CTP, you will need something they call Registration Code and Secret Key. So firstly, there is interesting file /fc4.js
 function fc4me(srvstr) {   if(!document.pleazfc4me.email.value || !document.pleazfc4me.securitystring.value) {  alert(&amp;#34;Please fill in all the required fields!&amp;#34;);  return false;  }  if(document.pleazfc4me.securitystring.value != hexMD5(&amp;#34;\x74\x72\x79\x68\x61\x72\x64\x65\x72&amp;#34;+srvstr)) {  alert(&amp;#34;Registration Authorization String not accepted! Try Harder! &amp;#34;);  return false;  } else {  document.pleazfc4me.submit();  }  } So all you need to do is setup some js variables in browser console and call fc4me(srvstr)</description>
     </item>
     
     <item>
       <title>Notes from #34c3</title>
-      <link>burso.eu/posts/34c3-tuwat/</link>
+      <link>www.burso.eu/posts/34c3-tuwat/</link>
       <pubDate>Wed, 10 Jan 2018 19:25:41 +0100</pubDate>
       
-      <guid>burso.eu/posts/34c3-tuwat/</guid>
+      <guid>www.burso.eu/posts/34c3-tuwat/</guid>
       <description>list of some interesting tools</description>
     </item>
     

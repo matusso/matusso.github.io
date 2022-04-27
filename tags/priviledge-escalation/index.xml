@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>priviledge escalation on .burso | blog about ctf &amp; anything else</title>
-    <link>burso.eu/tags/priviledge-escalation/</link>
+    <link>www.burso.eu/tags/priviledge-escalation/</link>
     <description>Recent content in priviledge escalation on .burso | blog about ctf &amp; anything else</description>
     <image>
-      <url>burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 06 Feb 2020 15:33:06 +0100</lastBuildDate><atom:link href="burso.eu/tags/priviledge-escalation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Feb 2020 15:33:06 +0100</lastBuildDate><atom:link href="www.burso.eu/tags/priviledge-escalation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Daily Bugle</title>
-      <link>burso.eu/posts/daily-bugle/</link>
+      <link>www.burso.eu/posts/daily-bugle/</link>
       <pubDate>Thu, 06 Feb 2020 15:33:06 +0100</pubDate>
       
-      <guid>burso.eu/posts/daily-bugle/</guid>
+      <guid>www.burso.eu/posts/daily-bugle/</guid>
       <description>Hi guys, today we look at CTF called Daily Bugle and we try to gain root priviledges. :) Let&amp;rsquo;s play.
 NOTICE: (SPOILER!!) If you would like to solve it by yourself, don&amp;rsquo;t read this post!
 [Task 1] First question is pretty simple. Open the article and you can find the answer

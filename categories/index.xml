@@ -2,74 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on .burso | blog about ctf &amp; anything else</title>
-    <link>burso.eu/categories/</link>
+    <link>www.burso.eu/categories/</link>
     <description>Recent content in Categories on .burso | blog about ctf &amp; anything else</description>
     <image>
-      <url>burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 Jan 2021 19:32:05 +0700</lastBuildDate><atom:link href="burso.eu/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jan 2021 19:32:05 +0700</lastBuildDate><atom:link href="www.burso.eu/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ctf</title>
-      <link>burso.eu/categories/ctf/</link>
+      <link>www.burso.eu/categories/ctf/</link>
       <pubDate>Sun, 03 Jan 2021 19:32:05 +0700</pubDate>
       
-      <guid>burso.eu/categories/ctf/</guid>
+      <guid>www.burso.eu/categories/ctf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>re</title>
-      <link>burso.eu/categories/re/</link>
+      <link>www.burso.eu/categories/re/</link>
       <pubDate>Sun, 03 Jan 2021 19:32:05 +0700</pubDate>
       
-      <guid>burso.eu/categories/re/</guid>
+      <guid>www.burso.eu/categories/re/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ropemporium</title>
-      <link>burso.eu/categories/ropemporium/</link>
+      <link>www.burso.eu/categories/ropemporium/</link>
       <pubDate>Sun, 03 Jan 2021 19:32:05 +0700</pubDate>
       
-      <guid>burso.eu/categories/ropemporium/</guid>
+      <guid>www.burso.eu/categories/ropemporium/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tryhackme</title>
-      <link>burso.eu/categories/tryhackme/</link>
+      <link>www.burso.eu/categories/tryhackme/</link>
       <pubDate>Mon, 07 Dec 2020 19:06:00 +0100</pubDate>
       
-      <guid>burso.eu/categories/tryhackme/</guid>
+      <guid>www.burso.eu/categories/tryhackme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hackthebox</title>
-      <link>burso.eu/categories/hackthebox/</link>
+      <link>www.burso.eu/categories/hackthebox/</link>
       <pubDate>Mon, 27 Jan 2020 19:06:00 +0100</pubDate>
       
-      <guid>burso.eu/categories/hackthebox/</guid>
+      <guid>www.burso.eu/categories/hackthebox/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vulns</title>
-      <link>burso.eu/categories/vulns/</link>
+      <link>www.burso.eu/categories/vulns/</link>
       <pubDate>Fri, 24 Jan 2020 12:24:40 +0100</pubDate>
       
-      <guid>burso.eu/categories/vulns/</guid>
+      <guid>www.burso.eu/categories/vulns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>conference</title>
-      <link>burso.eu/categories/conference/</link>
+      <link>www.burso.eu/categories/conference/</link>
       <pubDate>Wed, 10 Jan 2018 19:25:41 +0100</pubDate>
       
-      <guid>burso.eu/categories/conference/</guid>
+      <guid>www.burso.eu/categories/conference/</guid>
       <description></description>
     </item>
     
