@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>grsec on .burso | blog about ctf &amp; anything else</title>
-    <link>www.burso.eu/tags/grsec/</link>
+    <link>https://www.burso.eu/tags/grsec/</link>
     <description>Recent content in grsec on .burso | blog about ctf &amp; anything else</description>
     <image>
-      <url>www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 29 Apr 2016 20:58:10 +0100</lastBuildDate><atom:link href="www.burso.eu/tags/grsec/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Apr 2016 20:58:10 +0100</lastBuildDate><atom:link href="https://www.burso.eu/tags/grsec/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>.grsec patch size_overflow</title>
-      <link>www.burso.eu/posts/grsec-patch-size-overflow/</link>
+      <link>https://www.burso.eu/posts/grsec-patch-size-overflow/</link>
       <pubDate>Fri, 29 Apr 2016 20:58:10 +0100</pubDate>
       
-      <guid>www.burso.eu/posts/grsec-patch-size-overflow/</guid>
+      <guid>https://www.burso.eu/posts/grsec-patch-size-overflow/</guid>
       <description>I think you sure know linux kernel patches from grsecurity. In follow tweet you can read about size overflow in patch from grsec.
 This is the fail in the @grsecurity patch. How did this pass review? ... a security patchset has code review, right? pic.twitter.com/gincZXdQrU
 &amp;mdash; Hector Martin (@marcan42) April 25, 2016  So what is the problem in this patch? When you change int (signed value) to size_t (unsigned value), you have to be sure you are saving unsigned value.</description>

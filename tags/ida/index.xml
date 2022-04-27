@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>IDA on .burso | blog about ctf &amp; anything else</title>
-    <link>www.burso.eu/tags/ida/</link>
+    <link>https://www.burso.eu/tags/ida/</link>
     <description>Recent content in IDA on .burso | blog about ctf &amp; anything else</description>
     <image>
-      <url>www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 07 Dec 2020 19:06:00 +0100</lastBuildDate><atom:link href="www.burso.eu/tags/ida/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Dec 2020 19:06:00 +0100</lastBuildDate><atom:link href="https://www.burso.eu/tags/ida/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reversing ELF</title>
-      <link>www.burso.eu/posts/reversing-elf/</link>
+      <link>https://www.burso.eu/posts/reversing-elf/</link>
       <pubDate>Mon, 07 Dec 2020 19:06:00 +0100</pubDate>
       
-      <guid>www.burso.eu/posts/reversing-elf/</guid>
+      <guid>https://www.burso.eu/posts/reversing-elf/</guid>
       <description>Hi, today I would like to show you how to solve easy RE CTF and how to start with RE, my directory after finish all challenges looks following:
 $ tree . ├── crackme_1 │ ├── crackme1 │ └── flag.txt ├── crackme_2 │ ├── crackme2 │ └── flag.txt ├── crackme_3 │ ├── crackme3 │ └── flag.txt ├── crackme_4 │ ├── crackme4 │ ├── flag.txt │ └── gdb_cmd ├── crackme_5 │ ├── crackme5 │ ├── flag.</description>
     </item>
