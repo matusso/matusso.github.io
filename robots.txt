@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://www.burso.eu/sitemap.xml
+Sitemap: burso.eu/sitemap.xml
