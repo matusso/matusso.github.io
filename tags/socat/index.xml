@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>socat on .burso | blog about ctf &amp; anything else</title>
-    <link>https://burso.eu/tags/socat/</link>
+    <link>https://www.burso.eu/tags/socat/</link>
     <description>Recent content in socat on .burso | blog about ctf &amp; anything else</description>
     <image>
-      <url>https://burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 16 Mar 2020 18:42:36 +0100</lastBuildDate><atom:link href="https://burso.eu/tags/socat/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Mar 2020 18:42:36 +0100</lastBuildDate><atom:link href="https://www.burso.eu/tags/socat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Inclusion</title>
-      <link>https://burso.eu/posts/inclusion/</link>
+      <link>https://www.burso.eu/posts/inclusion/</link>
       <pubDate>Mon, 16 Mar 2020 18:42:36 +0100</pubDate>
       
-      <guid>https://burso.eu/posts/inclusion/</guid>
+      <guid>https://www.burso.eu/posts/inclusion/</guid>
       <description>Hi guys, after long time I have 5 minutes for playing game, so let&amp;rsquo;s play. I see new game called Inclusion with describe A beginner level LFI challenge. Yes, this is something I want to play and have been done quick.
 So I am starting VPN tunnel to our playground and click on magic button Deploy machine.
 As always first scan ports opened on the machine.

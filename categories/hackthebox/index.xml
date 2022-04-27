@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>hackthebox on .burso | blog about ctf &amp; anything else</title>
-    <link>https://burso.eu/categories/hackthebox/</link>
+    <link>https://www.burso.eu/categories/hackthebox/</link>
     <description>Recent content in hackthebox on .burso | blog about ctf &amp; anything else</description>
     <image>
-      <url>https://burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 27 Jan 2020 19:06:00 +0100</lastBuildDate><atom:link href="https://burso.eu/categories/hackthebox/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jan 2020 19:06:00 +0100</lastBuildDate><atom:link href="https://www.burso.eu/categories/hackthebox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Impossible Password</title>
-      <link>https://burso.eu/posts/impossible-password/</link>
+      <link>https://www.burso.eu/posts/impossible-password/</link>
       <pubDate>Mon, 27 Jan 2020 19:06:00 +0100</pubDate>
       
-      <guid>https://burso.eu/posts/impossible-password/</guid>
+      <guid>https://www.burso.eu/posts/impossible-password/</guid>
       <description>Welcome here in new year, I would like to introduce one of easy CTF in reverse engineering category
  radare2 [gdb]  $ r2 ./impossible_password.bin [0x004006a0]&amp;gt; aaa ... [0x004006a0]&amp;gt; afl 0x004006a0 1 41 entry0 0x00400610 1 6 sym.imp.__libc_start_main 0x004005f0 1 6 sym.imp.putchar 0x00400600 1 6 sym.imp.printf 0x00400620 1 6 sym.imp.srand 0x00400630 1 6 sym.imp.strcmp 0x00400650 1 6 sym.imp.time 0x00400660 1 6 sym.imp.malloc 0x00400670 1 6 sym.imp.__isoc99_scanf 0x00400680 1 6 sym.imp.exit 0x00400690 1 6 sym.</description>
     </item>

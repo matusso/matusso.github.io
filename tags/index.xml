@@ -2,308 +2,308 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on .burso | blog about ctf &amp; anything else</title>
-    <link>https://burso.eu/tags/</link>
+    <link>https://www.burso.eu/tags/</link>
     <description>Recent content in Tags on .burso | blog about ctf &amp; anything else</description>
     <image>
-      <url>https://burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 Jan 2021 19:32:05 +0700</lastBuildDate><atom:link href="https://burso.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jan 2021 19:32:05 +0700</lastBuildDate><atom:link href="https://www.burso.eu/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ctf</title>
-      <link>https://burso.eu/tags/ctf/</link>
+      <link>https://www.burso.eu/tags/ctf/</link>
       <pubDate>Sun, 03 Jan 2021 19:32:05 +0700</pubDate>
       
-      <guid>https://burso.eu/tags/ctf/</guid>
+      <guid>https://www.burso.eu/tags/ctf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gdb</title>
-      <link>https://burso.eu/tags/gdb/</link>
+      <link>https://www.burso.eu/tags/gdb/</link>
       <pubDate>Sun, 03 Jan 2021 19:32:05 +0700</pubDate>
       
-      <guid>https://burso.eu/tags/gdb/</guid>
+      <guid>https://www.burso.eu/tags/gdb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>https://burso.eu/tags/linux/</link>
+      <link>https://www.burso.eu/tags/linux/</link>
       <pubDate>Sun, 03 Jan 2021 19:32:05 +0700</pubDate>
       
-      <guid>https://burso.eu/tags/linux/</guid>
+      <guid>https://www.burso.eu/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>re</title>
-      <link>https://burso.eu/tags/re/</link>
+      <link>https://www.burso.eu/tags/re/</link>
       <pubDate>Sun, 03 Jan 2021 19:32:05 +0700</pubDate>
       
-      <guid>https://burso.eu/tags/re/</guid>
+      <guid>https://www.burso.eu/tags/re/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ropemporium</title>
-      <link>https://burso.eu/tags/ropemporium/</link>
+      <link>https://www.burso.eu/tags/ropemporium/</link>
       <pubDate>Sun, 03 Jan 2021 19:32:05 +0700</pubDate>
       
-      <guid>https://burso.eu/tags/ropemporium/</guid>
+      <guid>https://www.burso.eu/tags/ropemporium/</guid>
       <description></description>
     </item>
     
     <item>
       <title>x86_64</title>
-      <link>https://burso.eu/tags/x86_64/</link>
+      <link>https://www.burso.eu/tags/x86_64/</link>
       <pubDate>Sun, 03 Jan 2021 19:32:05 +0700</pubDate>
       
-      <guid>https://burso.eu/tags/x86_64/</guid>
+      <guid>https://www.burso.eu/tags/x86_64/</guid>
       <description></description>
     </item>
     
     <item>
       <title>elfutils</title>
-      <link>https://burso.eu/tags/elfutils/</link>
+      <link>https://www.burso.eu/tags/elfutils/</link>
       <pubDate>Mon, 07 Dec 2020 19:06:00 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/elfutils/</guid>
+      <guid>https://www.burso.eu/tags/elfutils/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IDA</title>
-      <link>https://burso.eu/tags/ida/</link>
+      <link>https://www.burso.eu/tags/ida/</link>
       <pubDate>Mon, 07 Dec 2020 19:06:00 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/ida/</guid>
+      <guid>https://www.burso.eu/tags/ida/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tryhackme</title>
-      <link>https://burso.eu/tags/tryhackme/</link>
+      <link>https://www.burso.eu/tags/tryhackme/</link>
       <pubDate>Mon, 07 Dec 2020 19:06:00 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/tryhackme/</guid>
+      <guid>https://www.burso.eu/tags/tryhackme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LFI</title>
-      <link>https://burso.eu/tags/lfi/</link>
+      <link>https://www.burso.eu/tags/lfi/</link>
       <pubDate>Mon, 16 Mar 2020 18:42:36 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/lfi/</guid>
+      <guid>https://www.burso.eu/tags/lfi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>socat</title>
-      <link>https://burso.eu/tags/socat/</link>
+      <link>https://www.burso.eu/tags/socat/</link>
       <pubDate>Mon, 16 Mar 2020 18:42:36 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/socat/</guid>
+      <guid>https://www.burso.eu/tags/socat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>eternalblue</title>
-      <link>https://burso.eu/tags/eternalblue/</link>
+      <link>https://www.burso.eu/tags/eternalblue/</link>
       <pubDate>Wed, 12 Feb 2020 14:35:31 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/eternalblue/</guid>
+      <guid>https://www.burso.eu/tags/eternalblue/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hashcat</title>
-      <link>https://burso.eu/tags/hashcat/</link>
+      <link>https://www.burso.eu/tags/hashcat/</link>
       <pubDate>Wed, 12 Feb 2020 14:35:31 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/hashcat/</guid>
+      <guid>https://www.burso.eu/tags/hashcat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>metasploit</title>
-      <link>https://burso.eu/tags/metasploit/</link>
+      <link>https://www.burso.eu/tags/metasploit/</link>
       <pubDate>Wed, 12 Feb 2020 14:35:31 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/metasploit/</guid>
+      <guid>https://www.burso.eu/tags/metasploit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MS17-010</title>
-      <link>https://burso.eu/tags/ms17-010/</link>
+      <link>https://www.burso.eu/tags/ms17-010/</link>
       <pubDate>Wed, 12 Feb 2020 14:35:31 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/ms17-010/</guid>
+      <guid>https://www.burso.eu/tags/ms17-010/</guid>
       <description></description>
     </item>
     
     <item>
       <title>joomla</title>
-      <link>https://burso.eu/tags/joomla/</link>
+      <link>https://www.burso.eu/tags/joomla/</link>
       <pubDate>Thu, 06 Feb 2020 15:33:06 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/joomla/</guid>
+      <guid>https://www.burso.eu/tags/joomla/</guid>
       <description></description>
     </item>
     
     <item>
       <title>priviledge escalation</title>
-      <link>https://burso.eu/tags/priviledge-escalation/</link>
+      <link>https://www.burso.eu/tags/priviledge-escalation/</link>
       <pubDate>Thu, 06 Feb 2020 15:33:06 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/priviledge-escalation/</guid>
+      <guid>https://www.burso.eu/tags/priviledge-escalation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sqli</title>
-      <link>https://burso.eu/tags/sqli/</link>
+      <link>https://www.burso.eu/tags/sqli/</link>
       <pubDate>Thu, 06 Feb 2020 15:33:06 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/sqli/</guid>
+      <guid>https://www.burso.eu/tags/sqli/</guid>
       <description></description>
     </item>
     
     <item>
       <title>yum</title>
-      <link>https://burso.eu/tags/yum/</link>
+      <link>https://www.burso.eu/tags/yum/</link>
       <pubDate>Thu, 06 Feb 2020 15:33:06 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/yum/</guid>
+      <guid>https://www.burso.eu/tags/yum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hackthebox</title>
-      <link>https://burso.eu/tags/hackthebox/</link>
+      <link>https://www.burso.eu/tags/hackthebox/</link>
       <pubDate>Mon, 27 Jan 2020 19:06:00 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/hackthebox/</guid>
+      <guid>https://www.burso.eu/tags/hackthebox/</guid>
       <description></description>
     </item>
     
     <item>
       <title>radare2</title>
-      <link>https://burso.eu/tags/radare2/</link>
+      <link>https://www.burso.eu/tags/radare2/</link>
       <pubDate>Mon, 27 Jan 2020 19:06:00 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/radare2/</guid>
+      <guid>https://www.burso.eu/tags/radare2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>citrix</title>
-      <link>https://burso.eu/tags/citrix/</link>
+      <link>https://www.burso.eu/tags/citrix/</link>
       <pubDate>Fri, 24 Jan 2020 12:24:40 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/citrix/</guid>
+      <guid>https://www.burso.eu/tags/citrix/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CVE-2019-19781</title>
-      <link>https://burso.eu/tags/cve-2019-19781/</link>
+      <link>https://www.burso.eu/tags/cve-2019-19781/</link>
       <pubDate>Fri, 24 Jan 2020 12:24:40 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/cve-2019-19781/</guid>
+      <guid>https://www.burso.eu/tags/cve-2019-19781/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hacking</title>
-      <link>https://burso.eu/tags/hacking/</link>
+      <link>https://www.burso.eu/tags/hacking/</link>
       <pubDate>Fri, 24 Jan 2020 12:24:40 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/hacking/</guid>
+      <guid>https://www.burso.eu/tags/hacking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nmap</title>
-      <link>https://burso.eu/tags/nmap/</link>
+      <link>https://www.burso.eu/tags/nmap/</link>
       <pubDate>Fri, 24 Jan 2020 12:24:40 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/nmap/</guid>
+      <guid>https://www.burso.eu/tags/nmap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shodan</title>
-      <link>https://burso.eu/tags/shodan/</link>
+      <link>https://www.burso.eu/tags/shodan/</link>
       <pubDate>Fri, 24 Jan 2020 12:24:40 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/shodan/</guid>
+      <guid>https://www.burso.eu/tags/shodan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tor</title>
-      <link>https://burso.eu/tags/tor/</link>
+      <link>https://www.burso.eu/tags/tor/</link>
       <pubDate>Fri, 24 Jan 2020 12:24:40 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/tor/</guid>
+      <guid>https://www.burso.eu/tags/tor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>offensive-security</title>
-      <link>https://burso.eu/tags/offensive-security/</link>
+      <link>https://www.burso.eu/tags/offensive-security/</link>
       <pubDate>Wed, 22 Jan 2020 14:32:59 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/offensive-security/</guid>
+      <guid>https://www.burso.eu/tags/offensive-security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CCC</title>
-      <link>https://burso.eu/tags/ccc/</link>
+      <link>https://www.burso.eu/tags/ccc/</link>
       <pubDate>Wed, 10 Jan 2018 19:25:41 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/ccc/</guid>
+      <guid>https://www.burso.eu/tags/ccc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tools</title>
-      <link>https://burso.eu/tags/tools/</link>
+      <link>https://www.burso.eu/tags/tools/</link>
       <pubDate>Wed, 10 Jan 2018 19:25:41 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/tools/</guid>
+      <guid>https://www.burso.eu/tags/tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DoS</title>
-      <link>https://burso.eu/tags/dos/</link>
+      <link>https://www.burso.eu/tags/dos/</link>
       <pubDate>Fri, 29 Apr 2016 20:58:10 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/dos/</guid>
+      <guid>https://www.burso.eu/tags/dos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>grsec</title>
-      <link>https://burso.eu/tags/grsec/</link>
+      <link>https://www.burso.eu/tags/grsec/</link>
       <pubDate>Fri, 29 Apr 2016 20:58:10 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/grsec/</guid>
+      <guid>https://www.burso.eu/tags/grsec/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kernel</title>
-      <link>https://burso.eu/tags/kernel/</link>
+      <link>https://www.burso.eu/tags/kernel/</link>
       <pubDate>Fri, 29 Apr 2016 20:58:10 +0100</pubDate>
       
-      <guid>https://burso.eu/tags/kernel/</guid>
+      <guid>https://www.burso.eu/tags/kernel/</guid>
       <description></description>
     </item>
     
