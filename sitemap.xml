@@ -1,266 +1,174 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>/ctf/re/</loc>
-    <lastmod>2021-01-06T16:45:45+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/ctf/re/ropemporium.com/</loc>
-    <lastmod>2021-01-06T16:45:45+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2021-01-06T16:45:45+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/ctf/</loc>
-    <lastmod>2021-01-06T16:45:45+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/ctf/re/ropemporium.com/split/</loc>
-    <lastmod>2021-01-06T16:45:45+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/ctf/re/ropemporium.com/ret2win/</loc>
+    <loc>https://burso.eu/</loc>
     <lastmod>2021-01-03T19:32:05+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/ctf/re/tryhackme.com/</loc>
+  </url><url>
+    <loc>https://burso.eu/categories/</loc>
+    <lastmod>2021-01-03T19:32:05+07:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/tags/ctf/</loc>
+    <lastmod>2021-01-03T19:32:05+07:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/categories/ctf/</loc>
+    <lastmod>2021-01-03T19:32:05+07:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/tags/gdb/</loc>
+    <lastmod>2021-01-03T19:32:05+07:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/tags/linux/</loc>
+    <lastmod>2021-01-03T19:32:05+07:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/posts/</loc>
+    <lastmod>2021-01-03T19:32:05+07:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/tags/re/</loc>
+    <lastmod>2021-01-03T19:32:05+07:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/categories/re/</loc>
+    <lastmod>2021-01-03T19:32:05+07:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/posts/ret2win/</loc>
+    <lastmod>2021-01-03T19:32:05+07:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/tags/ropemporium/</loc>
+    <lastmod>2021-01-03T19:32:05+07:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/categories/ropemporium/</loc>
+    <lastmod>2021-01-03T19:32:05+07:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/tags/</loc>
+    <lastmod>2021-01-03T19:32:05+07:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/tags/x86_64/</loc>
+    <lastmod>2021-01-03T19:32:05+07:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/tags/elfutils/</loc>
     <lastmod>2020-12-07T19:06:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/ctf/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/ida/</loc>
     <lastmod>2020-12-07T19:06:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/elfutils/</loc>
+  </url><url>
+    <loc>https://burso.eu/posts/reversing-elf/</loc>
     <lastmod>2020-12-07T19:06:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/ida/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/tryhackme/</loc>
     <lastmod>2020-12-07T19:06:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/re/</loc>
+  </url><url>
+    <loc>https://burso.eu/categories/tryhackme/</loc>
     <lastmod>2020-12-07T19:06:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/ctf/re/tryhackme.com/reverselfiles/</loc>
-    <lastmod>2020-12-07T19:06:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-12-07T19:06:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/tryhackme/</loc>
-    <lastmod>2020-12-07T19:06:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/ctf/thm/</loc>
+  </url><url>
+    <loc>https://burso.eu/posts/inclusion/</loc>
     <lastmod>2020-03-16T18:42:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/ctf/thm/inclusion/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/lfi/</loc>
     <lastmod>2020-03-16T18:42:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/lfi/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/socat/</loc>
     <lastmod>2020-03-16T18:42:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/socat/</loc>
-    <lastmod>2020-03-16T18:42:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/ctf/thm/blue/</loc>
+  </url><url>
+    <loc>https://burso.eu/posts/blue/</loc>
     <lastmod>2020-02-12T14:35:31+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/eternalblue/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/eternalblue/</loc>
     <lastmod>2020-02-12T14:35:31+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/hashcat/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/hashcat/</loc>
     <lastmod>2020-02-12T14:35:31+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/metasploit/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/metasploit/</loc>
     <lastmod>2020-02-12T14:35:31+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/ms17-010/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/ms17-010/</loc>
     <lastmod>2020-02-12T14:35:31+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/ctf/thm/bookface/</loc>
+  </url><url>
+    <loc>https://burso.eu/posts/bookface/</loc>
     <lastmod>2020-02-10T14:50:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/ctf/thm/daily-bugle/</loc>
+  </url><url>
+    <loc>https://burso.eu/posts/daily-bugle/</loc>
     <lastmod>2020-02-06T15:33:06+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/joomla/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/joomla/</loc>
     <lastmod>2020-02-06T15:33:06+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/priviledge-escalation/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/priviledge-escalation/</loc>
     <lastmod>2020-02-06T15:33:06+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/sqli/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/sqli/</loc>
     <lastmod>2020-02-06T15:33:06+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/yum/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/yum/</loc>
     <lastmod>2020-02-06T15:33:06+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/vulns/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/hackthebox/</loc>
+    <lastmod>2020-01-27T19:06:00+01:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/categories/hackthebox/</loc>
+    <lastmod>2020-01-27T19:06:00+01:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/posts/impossible-password/</loc>
+    <lastmod>2020-01-27T19:06:00+01:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/tags/radare2/</loc>
+    <lastmod>2020-01-27T19:06:00+01:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/tags/citrix/</loc>
     <lastmod>2020-01-24T12:24:40+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/citrix/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/cve-2019-19781/</loc>
     <lastmod>2020-01-24T12:24:40+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/cve-2019-19781/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/hacking/</loc>
     <lastmod>2020-01-24T12:24:40+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/hacking/</loc>
+  </url><url>
+    <loc>https://burso.eu/posts/citrix-vulnerability/</loc>
     <lastmod>2020-01-24T12:24:40+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/vulns/citrix-vulnerability/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/nmap/</loc>
     <lastmod>2020-01-24T12:24:40+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/nmap/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/shodan/</loc>
     <lastmod>2020-01-24T12:24:40+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/shodan/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/tor/</loc>
     <lastmod>2020-01-24T12:24:40+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/tor/</loc>
+  </url><url>
+    <loc>https://burso.eu/categories/vulns/</loc>
     <lastmod>2020-01-24T12:24:40+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/ctf/offensive-security/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/offensive-security/</loc>
     <lastmod>2020-01-22T14:32:59+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/offensive-security/</loc>
+  </url><url>
+    <loc>https://burso.eu/posts/osce-prologue/</loc>
     <lastmod>2020-01-22T14:32:59+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/ctf/offensive-security/osce-prologue/</loc>
-    <lastmod>2020-01-22T14:32:59+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about_me/</loc>
-    <lastmod>2018-03-02T20:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/cnf/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/ccc/</loc>
     <lastmod>2018-01-10T19:25:41+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/ccc/</loc>
+  </url><url>
+    <loc>https://burso.eu/categories/conference/</loc>
     <lastmod>2018-01-10T19:25:41+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/conference/</loc>
+  </url><url>
+    <loc>https://burso.eu/posts/34c3-tuwat/</loc>
     <lastmod>2018-01-10T19:25:41+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/cnf/34c3-tuwat/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/tools/</loc>
     <lastmod>2018-01-10T19:25:41+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/tools/</loc>
-    <lastmod>2018-01-10T19:25:41+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/vulns/grsec-patch-size-overflow/</loc>
+  </url><url>
+    <loc>https://burso.eu/posts/grsec-patch-size-overflow/</loc>
     <lastmod>2016-04-29T20:58:10+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/dos/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/dos/</loc>
     <lastmod>2016-04-29T20:58:10+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/grsec/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/grsec/</loc>
     <lastmod>2016-04-29T20:58:10+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/kernel/</loc>
+  </url><url>
+    <loc>https://burso.eu/tags/kernel/</loc>
     <lastmod>2016-04-29T20:58:10+01:00</lastmod>
+  </url><url>
+    <loc>https://burso.eu/archives/</loc>
+  </url><url>
+    <loc>https://burso.eu/search/</loc>
   </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>1337-01-03T19:32:05+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-  </url>
-  
 </urlset>
