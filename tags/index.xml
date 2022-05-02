@@ -9,13 +9,58 @@
       <link>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 Jan 2021 19:32:05 +0700</lastBuildDate><atom:link href="https://www.burso.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 May 2022 17:35:00 +0100</lastBuildDate><atom:link href="https://www.burso.eu/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ctf</title>
       <link>https://www.burso.eu/tags/ctf/</link>
-      <pubDate>Sun, 03 Jan 2021 19:32:05 +0700</pubDate>
+      <pubDate>Mon, 02 May 2022 17:35:00 +0100</pubDate>
       
       <guid>https://www.burso.eu/tags/ctf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hackthebox</title>
+      <link>https://www.burso.eu/tags/hackthebox/</link>
+      <pubDate>Mon, 02 May 2022 17:35:00 +0100</pubDate>
+      
+      <guid>https://www.burso.eu/tags/hackthebox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>little-endian</title>
+      <link>https://www.burso.eu/tags/little-endian/</link>
+      <pubDate>Mon, 02 May 2022 17:35:00 +0100</pubDate>
+      
+      <guid>https://www.burso.eu/tags/little-endian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pwn</title>
+      <link>https://www.burso.eu/tags/pwn/</link>
+      <pubDate>Mon, 02 May 2022 17:35:00 +0100</pubDate>
+      
+      <guid>https://www.burso.eu/tags/pwn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stack</title>
+      <link>https://www.burso.eu/tags/stack/</link>
+      <pubDate>Mon, 02 May 2022 17:35:00 +0100</pubDate>
+      
+      <guid>https://www.burso.eu/tags/stack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>x86</title>
+      <link>https://www.burso.eu/tags/x86/</link>
+      <pubDate>Mon, 02 May 2022 17:35:00 +0100</pubDate>
+      
+      <guid>https://www.burso.eu/tags/x86/</guid>
       <description></description>
     </item>
     
@@ -178,15 +223,6 @@
       <pubDate>Thu, 06 Feb 2020 15:33:06 +0100</pubDate>
       
       <guid>https://www.burso.eu/tags/yum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hackthebox</title>
-      <link>https://www.burso.eu/tags/hackthebox/</link>
-      <pubDate>Mon, 27 Jan 2020 19:06:00 +0100</pubDate>
-      
-      <guid>https://www.burso.eu/tags/hackthebox/</guid>
       <description></description>
     </item>
     

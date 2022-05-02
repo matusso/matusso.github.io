@@ -9,13 +9,22 @@
       <link>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 Jan 2021 19:32:05 +0700</lastBuildDate><atom:link href="https://www.burso.eu/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 May 2022 17:35:00 +0100</lastBuildDate><atom:link href="https://www.burso.eu/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ctf</title>
       <link>https://www.burso.eu/categories/ctf/</link>
-      <pubDate>Sun, 03 Jan 2021 19:32:05 +0700</pubDate>
+      <pubDate>Mon, 02 May 2022 17:35:00 +0100</pubDate>
       
       <guid>https://www.burso.eu/categories/ctf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hackthebox</title>
+      <link>https://www.burso.eu/categories/hackthebox/</link>
+      <pubDate>Mon, 02 May 2022 17:35:00 +0100</pubDate>
+      
+      <guid>https://www.burso.eu/categories/hackthebox/</guid>
       <description></description>
     </item>
     
@@ -43,15 +52,6 @@
       <pubDate>Mon, 07 Dec 2020 19:06:00 +0100</pubDate>
       
       <guid>https://www.burso.eu/categories/tryhackme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hackthebox</title>
-      <link>https://www.burso.eu/categories/hackthebox/</link>
-      <pubDate>Mon, 27 Jan 2020 19:06:00 +0100</pubDate>
-      
-      <guid>https://www.burso.eu/categories/hackthebox/</guid>
       <description></description>
     </item>
     
