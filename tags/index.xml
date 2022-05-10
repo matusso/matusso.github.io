@@ -9,7 +9,52 @@
       <link>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 02 May 2022 17:35:00 +0100</lastBuildDate><atom:link href="https://www.burso.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 May 2022 16:42:00 +0100</lastBuildDate><atom:link href="https://www.burso.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API</title>
+      <link>https://www.burso.eu/tags/api/</link>
+      <pubDate>Mon, 09 May 2022 16:42:00 +0100</pubDate>
+      
+      <guid>https://www.burso.eu/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BIG-IP</title>
+      <link>https://www.burso.eu/tags/big-ip/</link>
+      <pubDate>Mon, 09 May 2022 16:42:00 +0100</pubDate>
+      
+      <guid>https://www.burso.eu/tags/big-ip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CVE-2022-1388</title>
+      <link>https://www.burso.eu/tags/cve-2022-1388/</link>
+      <pubDate>Mon, 09 May 2022 16:42:00 +0100</pubDate>
+      
+      <guid>https://www.burso.eu/tags/cve-2022-1388/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>F5</title>
+      <link>https://www.burso.eu/tags/f5/</link>
+      <pubDate>Mon, 09 May 2022 16:42:00 +0100</pubDate>
+      
+      <guid>https://www.burso.eu/tags/f5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REST</title>
+      <link>https://www.burso.eu/tags/rest/</link>
+      <pubDate>Mon, 09 May 2022 16:42:00 +0100</pubDate>
+      
+      <guid>https://www.burso.eu/tags/rest/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ctf</title>
       <link>https://www.burso.eu/tags/ctf/</link>

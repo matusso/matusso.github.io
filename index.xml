@@ -9,7 +9,18 @@
       <link>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 02 May 2022 17:35:00 +0100</lastBuildDate><atom:link href="https://www.burso.eu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 May 2022 16:42:00 +0100</lastBuildDate><atom:link href="https://www.burso.eu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>F5 BIG-IP iControl REST vulnerability CVE-2022-1388</title>
+      <link>https://www.burso.eu/posts/big-ip-f5/</link>
+      <pubDate>Mon, 09 May 2022 16:42:00 +0100</pubDate>
+      
+      <guid>https://www.burso.eu/posts/big-ip-f5/</guid>
+      <description>Good afternoon for every security researchers. I would like to share my experience to find announced vulnerability by internal F5 security team and write exploit for CVE-2022-1388.
+You can read more about this vulnerability on thehackernews or helpnetsecurity. iControl REST is API for interaction between scripts and F5 device to manage and control that device automatically.
+Based on details of mitigation, the problem should be somewhere in Connection:  header.</description>
+    </item>
+    
     <item>
       <title>racecar</title>
       <link>https://www.burso.eu/posts/racecar/</link>

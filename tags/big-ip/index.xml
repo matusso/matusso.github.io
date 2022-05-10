@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>BIG-IP on .burso | blog about ctf &amp; anything else</title>
+    <link>https://www.burso.eu/tags/big-ip/</link>
+    <description>Recent content in BIG-IP on .burso | blog about ctf &amp; anything else</description>
+    <image>
+      <url>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 09 May 2022 16:42:00 +0100</lastBuildDate><atom:link href="https://www.burso.eu/tags/big-ip/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>F5 BIG-IP iControl REST vulnerability CVE-2022-1388</title>
+      <link>https://www.burso.eu/posts/big-ip-f5/</link>
+      <pubDate>Mon, 09 May 2022 16:42:00 +0100</pubDate>
+      
+      <guid>https://www.burso.eu/posts/big-ip-f5/</guid>
+      <description>Good afternoon for every security researchers. I would like to share my experience to find announced vulnerability by internal F5 security team and write exploit for CVE-2022-1388.
+You can read more about this vulnerability on thehackernews or helpnetsecurity. iControl REST is API for interaction between scripts and F5 device to manage and control that device automatically.
+Based on details of mitigation, the problem should be somewhere in Connection:  header.</description>
+    </item>
+    
+  </channel>
+</rss>

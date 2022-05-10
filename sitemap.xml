@@ -3,10 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.burso.eu/</loc>
-    <lastmod>2022-05-02T17:35:00+01:00</lastmod>
+    <lastmod>2022-05-09T16:42:00+01:00</lastmod>
+  </url><url>
+    <loc>https://www.burso.eu/tags/api/</loc>
+    <lastmod>2022-05-09T16:42:00+01:00</lastmod>
+  </url><url>
+    <loc>https://www.burso.eu/tags/big-ip/</loc>
+    <lastmod>2022-05-09T16:42:00+01:00</lastmod>
   </url><url>
     <loc>https://www.burso.eu/categories/</loc>
-    <lastmod>2022-05-02T17:35:00+01:00</lastmod>
+    <lastmod>2022-05-09T16:42:00+01:00</lastmod>
+  </url><url>
+    <loc>https://www.burso.eu/tags/cve-2022-1388/</loc>
+    <lastmod>2022-05-09T16:42:00+01:00</lastmod>
+  </url><url>
+    <loc>https://www.burso.eu/tags/f5/</loc>
+    <lastmod>2022-05-09T16:42:00+01:00</lastmod>
+  </url><url>
+    <loc>https://www.burso.eu/posts/big-ip-f5/</loc>
+    <lastmod>2022-05-09T16:42:00+01:00</lastmod>
+  </url><url>
+    <loc>https://www.burso.eu/posts/</loc>
+    <lastmod>2022-05-09T16:42:00+01:00</lastmod>
+  </url><url>
+    <loc>https://www.burso.eu/tags/rest/</loc>
+    <lastmod>2022-05-09T16:42:00+01:00</lastmod>
+  </url><url>
+    <loc>https://www.burso.eu/tags/</loc>
+    <lastmod>2022-05-09T16:42:00+01:00</lastmod>
+  </url><url>
+    <loc>https://www.burso.eu/categories/vulns/</loc>
+    <lastmod>2022-05-09T16:42:00+01:00</lastmod>
   </url><url>
     <loc>https://www.burso.eu/tags/ctf/</loc>
     <lastmod>2022-05-02T17:35:00+01:00</lastmod>
@@ -23,9 +50,6 @@
     <loc>https://www.burso.eu/tags/little-endian/</loc>
     <lastmod>2022-05-02T17:35:00+01:00</lastmod>
   </url><url>
-    <loc>https://www.burso.eu/posts/</loc>
-    <lastmod>2022-05-02T17:35:00+01:00</lastmod>
-  </url><url>
     <loc>https://www.burso.eu/tags/pwn/</loc>
     <lastmod>2022-05-02T17:35:00+01:00</lastmod>
   </url><url>
@@ -33,9 +57,6 @@
     <lastmod>2022-05-02T17:35:00+01:00</lastmod>
   </url><url>
     <loc>https://www.burso.eu/tags/stack/</loc>
-    <lastmod>2022-05-02T17:35:00+01:00</lastmod>
-  </url><url>
-    <loc>https://www.burso.eu/tags/</loc>
     <lastmod>2022-05-02T17:35:00+01:00</lastmod>
   </url><url>
     <loc>https://www.burso.eu/tags/x86/</loc>
@@ -147,9 +168,6 @@
     <lastmod>2020-01-24T12:24:40+01:00</lastmod>
   </url><url>
     <loc>https://www.burso.eu/tags/tor/</loc>
-    <lastmod>2020-01-24T12:24:40+01:00</lastmod>
-  </url><url>
-    <loc>https://www.burso.eu/categories/vulns/</loc>
     <lastmod>2020-01-24T12:24:40+01:00</lastmod>
   </url><url>
     <loc>https://www.burso.eu/tags/offensive-security/</loc>
