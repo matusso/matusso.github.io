@@ -16,9 +16,9 @@
       <pubDate>Mon, 09 May 2022 16:42:00 +0100</pubDate>
       
       <guid>https://www.burso.eu/posts/big-ip-f5/</guid>
-      <description>Good afternoon for every security researchers. I would like to share my experience to find announced vulnerability by internal F5 security team and write exploit for CVE-2022-1388.
-You can read more about this vulnerability on thehackernews or helpnetsecurity. iControl REST is API for interaction between scripts and F5 device to manage and control that device automatically.
-Based on details of mitigation, the problem should be somewhere in Connection:  header.</description>
+      <description>Good afternoon to every security researcher. I would like to share my experience of finding announced vulnerability by internal F5 security team and writing the exploit for CVE-2022-1388.
+You can read more about this vulnerability on thehackernews or helpnetsecurity. iControl REST is an API for interaction between scripts and F5 device, used to manage and control that device automatically.
+Based on the details of the mitigation, the problem should be somewhere in the Connection:  header.</description>
     </item>
     
     <item>
