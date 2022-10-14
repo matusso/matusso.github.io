@@ -18,7 +18,7 @@
       <guid>https://www.burso.eu/posts/big-ip-f5/</guid>
       <description>Good afternoon to every security researcher. I would like to share my experience of finding announced vulnerability by internal F5 security team and writing the exploit for CVE-2022-1388.
 You can read more about this vulnerability on thehackernews or helpnetsecurity. iControl REST is an API for interaction between scripts and F5 device, used to manage and control that device automatically.
-Based on the details of the mitigation, the problem should be somewhere in the Connection:  header.</description>
+Based on the details of the mitigation, the problem should be somewhere in the Connection: header.</description>
     </item>
     
     <item>
@@ -29,7 +29,7 @@ Based on the details of the mitigation, the problem should be somewhere in the C
       <guid>https://www.burso.eu/posts/citrix-vulnerability/</guid>
       <description>NOTICE: Educational purposes only!
 Hi, I want to show you how easy it is to find a vulnerable server on the internet. Okey guys, so now, firstly we need to have some TOR client for anonymity ;) Before we begin, look at the following tools
- tor nyx proxychains-ng shodan curl nmap  $ tor &amp;amp; $ nyx -i 127.0.0.1:9052 Then we can test, if the tor is working correctly with proxychains</description>
+tor nyx proxychains-ng shodan curl nmap $ tor &amp;amp; $ nyx -i 127.0.0.1:9052 Then we can test, if the tor is working correctly with proxychains</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@ Hi, I want to show you how easy it is to find a vulnerable server on the interne
       <guid>https://www.burso.eu/posts/grsec-patch-size-overflow/</guid>
       <description>I think you sure know linux kernel patches from grsecurity. In follow tweet you can read about size overflow in patch from grsec.
 This is the fail in the @grsecurity patch. How did this pass review? ... a security patchset has code review, right? pic.twitter.com/gincZXdQrU
-&amp;mdash; Hector Martin (@marcan42) April 25, 2016  So what is the problem in this patch? When you change int (signed value) to size_t (unsigned value), you have to be sure you are saving unsigned value.</description>
+&amp;mdash; Hector Martin (@marcan42) April 25, 2016 So what is the problem in this patch? When you change int (signed value) to size_t (unsigned value), you have to be sure you are saving unsigned value.</description>
     </item>
     
   </channel>

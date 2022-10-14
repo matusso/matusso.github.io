@@ -39,7 +39,7 @@ $ nmap -T4 -sV 10.</description>
       
       <guid>https://www.burso.eu/posts/blue/</guid>
       <description>Hello everyone, today we look at the CTF with MS17-010 vulnerability. So let&amp;rsquo;s start with nmap scan.
-$ nmap -sV -p0-1000 --script vuln 10.10.223.243 Starting Nmap 7.80 ( https://nmap.org ) at 2020-02-12 14:40 CET Nmap scan report for 10.10.223.243 Host is up (0.043s latency). Not shown: 998 closed ports PORT STATE SERVICE VERSION 135/tcp open msrpc Microsoft Windows RPC |_clamav-exec: ERROR: Script execution failed (use -d to debug) 139/tcp open netbios-ssn Microsoft Windows netbios-ssn |_clamav-exec: ERROR: Script execution failed (use -d to debug) 445/tcp open microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP) |_clamav-exec: ERROR: Script execution failed (use -d to debug) Service Info: Host: JON-PC; OS: Windows; CPE: cpe:/o:microsoft:windows   Host script results: |_samba-vuln-cve-2012-1182: NT_STATUS_ACCESS_DENIED |_smb-vuln-ms10-054: false |_smb-vuln-ms10-061: NT_STATUS_ACCESS_DENIED | smb-vuln-ms17-010: | VULNERABLE: | Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010) | State: VULNERABLE | IDs: CVE:CVE-2017-0143 | Risk factor: HIGH | A critical remote code execution vulnerability exists in Microsoft SMBv1 | servers (ms17-010).</description>
+$ nmap -sV -p0-1000 --script vuln 10.10.223.243 Starting Nmap 7.80 ( https://nmap.org ) at 2020-02-12 14:40 CET Nmap scan report for 10.10.223.243 Host is up (0.043s latency). Not shown: 998 closed ports PORT STATE SERVICE VERSION 135/tcp open msrpc Microsoft Windows RPC |_clamav-exec: ERROR: Script execution failed (use -d to debug) 139/tcp open netbios-ssn Microsoft Windows netbios-ssn |_clamav-exec: ERROR: Script execution failed (use -d to debug) 445/tcp open microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP) |_clamav-exec: ERROR: Script execution failed (use -d to debug) Service Info: Host: JON-PC; OS: Windows; CPE: cpe:/o:microsoft:windows Host script results: |_samba-vuln-cve-2012-1182: NT_STATUS_ACCESS_DENIED |_smb-vuln-ms10-054: false |_smb-vuln-ms10-061: NT_STATUS_ACCESS_DENIED | smb-vuln-ms17-010: | VULNERABLE: | Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010) | State: VULNERABLE | IDs: CVE:CVE-2017-0143 | Risk factor: HIGH | A critical remote code execution vulnerability exists in Microsoft SMBv1 | servers (ms17-010).</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@ $ nmap -sV -p0-1000 --script vuln 10.10.223.243 Starting Nmap 7.80 ( https://nma
       
       <guid>https://www.burso.eu/posts/bookface/</guid>
       <description>Before we start, read more about following tools &amp;amp; vulnerabilities. It will contains in this CTF
- hydra screen - CVE-2017-5618 knock  and also you can read more about additional security method called port knocking
+hydra screen - CVE-2017-5618 knock and also you can read more about additional security method called port knocking
 So let&amp;rsquo;s start as usual with nmap.
 nmap -F --top-ports 10 -sV 10.10.219.90 Starting Nmap 7.80 ( https://nmap.org ) at 2020-02-10 16:37 CET Stats: 0:00:07 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan Service scan Timing: About 0.</description>
     </item>
@@ -64,7 +64,7 @@ nmap -F --top-ports 10 -sV 10.10.219.90 Starting Nmap 7.80 ( https://nmap.org ) 
 NOTICE: (SPOILER!!) If you would like to solve it by yourself, don&amp;rsquo;t read this post!
 [Task 1] First question is pretty simple. Open the article and you can find the answer
 Access the web server, who robbed the bank?
- spiderman  [Task 2] $ curl http://10.10.86.172/media/system/js/mootools-more.js 2&amp;gt;/dev/null | grep MooTools.</description>
+spiderman [Task 2] $ curl http://10.10.86.172/media/system/js/mootools-more.js 2&amp;gt;/dev/null | grep MooTools.More MooTools.More={version:&amp;#34;1.4.0.1&amp;#34;,build:&amp;#34;a4244edf2aa97ac8a196fc96082dd35af1abab87&amp;#34;};(function(){Events.Pseudos=function(h,e,f){var d=&amp;#34;_monitorEvents:&amp;#34;;var c=function(i){return{store:i.</description>
     </item>
     
   </channel>

@@ -18,7 +18,7 @@
       <guid>https://www.burso.eu/posts/citrix-vulnerability/</guid>
       <description>NOTICE: Educational purposes only!
 Hi, I want to show you how easy it is to find a vulnerable server on the internet. Okey guys, so now, firstly we need to have some TOR client for anonymity ;) Before we begin, look at the following tools
- tor nyx proxychains-ng shodan curl nmap  $ tor &amp;amp; $ nyx -i 127.0.0.1:9052 Then we can test, if the tor is working correctly with proxychains</description>
+tor nyx proxychains-ng shodan curl nmap $ tor &amp;amp; $ nyx -i 127.0.0.1:9052 Then we can test, if the tor is working correctly with proxychains</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@ Hi, I want to show you how easy it is to find a vulnerable server on the interne
       
       <guid>https://www.burso.eu/posts/osce-prologue/</guid>
       <description>If you want to register to CTP, you will need something they call Registration Code and Secret Key. So firstly, there is interesting file /fc4.js
-function fc4me(srvstr) {   if(!document.pleazfc4me.email.value || !document.pleazfc4me.securitystring.value) {  alert(&amp;#34;Please fill in all the required fields!&amp;#34;);  return false;  }  if(document.pleazfc4me.securitystring.value != hexMD5(&amp;#34;\x74\x72\x79\x68\x61\x72\x64\x65\x72&amp;#34;+srvstr)) {  alert(&amp;#34;Registration Authorization String not accepted! Try Harder! &amp;#34;);  return false;  } else {  document.pleazfc4me.submit();  }  } So all you need to do is setup some js variables in browser console and call fc4me(srvstr)</description>
+function fc4me(srvstr) { if(!document.pleazfc4me.email.value || !document.pleazfc4me.securitystring.value) { alert(&amp;#34;Please fill in all the required fields!&amp;#34;); return false; } if(document.pleazfc4me.securitystring.value != hexMD5(&amp;#34;\x74\x72\x79\x68\x61\x72\x64\x65\x72&amp;#34;+srvstr)) { alert(&amp;#34;Registration Authorization String not accepted! Try Harder! &amp;#34;); return false; } else { document.pleazfc4me.submit(); } } So all you need to do is setup some js variables in browser console and call fc4me(srvstr)</description>
     </item>
     
     <item>

@@ -17,7 +17,7 @@
       
       <guid>https://www.burso.eu/posts/impossible-password/</guid>
       <description>Welcome here in new year, I would like to introduce one of easy CTF in reverse engineering category
- radare2 [gdb]  $ r2 ./impossible_password.bin [0x004006a0]&amp;gt; aaa ... [0x004006a0]&amp;gt; afl 0x004006a0 1 41 entry0 0x00400610 1 6 sym.imp.__libc_start_main 0x004005f0 1 6 sym.imp.putchar 0x00400600 1 6 sym.imp.printf 0x00400620 1 6 sym.imp.srand 0x00400630 1 6 sym.imp.strcmp 0x00400650 1 6 sym.imp.time 0x00400660 1 6 sym.imp.malloc 0x00400670 1 6 sym.imp.__isoc99_scanf 0x00400680 1 6 sym.imp.exit 0x00400690 1 6 sym.</description>
+radare2 [gdb] $ r2 ./impossible_password.bin [0x004006a0]&amp;gt; aaa ... [0x004006a0]&amp;gt; afl 0x004006a0 1 41 entry0 0x00400610 1 6 sym.imp.__libc_start_main 0x004005f0 1 6 sym.imp.putchar 0x00400600 1 6 sym.imp.printf 0x00400620 1 6 sym.imp.srand 0x00400630 1 6 sym.imp.strcmp 0x00400650 1 6 sym.imp.time 0x00400660 1 6 sym.imp.malloc 0x00400670 1 6 sym.imp.__isoc99_scanf 0x00400680 1 6 sym.imp.exit 0x00400690 1 6 sym.</description>
     </item>
     
   </channel>

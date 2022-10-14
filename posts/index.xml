@@ -18,7 +18,7 @@
       <guid>https://www.burso.eu/posts/big-ip-f5/</guid>
       <description>Good afternoon to every security researcher. I would like to share my experience of finding announced vulnerability by internal F5 security team and writing the exploit for CVE-2022-1388.
 You can read more about this vulnerability on thehackernews or helpnetsecurity. iControl REST is an API for interaction between scripts and F5 device, used to manage and control that device automatically.
-Based on the details of the mitigation, the problem should be somewhere in the Connection:  header.</description>
+Based on the details of the mitigation, the problem should be somewhere in the Connection: header.</description>
     </item>
     
     <item>
@@ -38,7 +38,7 @@ First of all I look what type of file is it
       <pubDate>Sun, 03 Jan 2021 19:32:05 +0700</pubDate>
       
       <guid>https://www.burso.eu/posts/ret2win/</guid>
-      <description>$ PYTHONIOENCODING=utf8 ./ret2win.py [!] Pwntools does not support 32-bit Python. Use a 64-bit release. [+] Starting local process &amp;#39;./ret2win32&amp;#39;: pid 26910 ret2win by ROP Emporium x86  For my first trick, I will attempt to fit 56 bytes of user input into 32 bytes of stack buffer! What could possibly go wrong? You there, may I have your input please? And don&amp;#39;t worry about null bytes, we&amp;#39;re using read()!  &amp;gt;  Thank you!</description>
+      <description>$ PYTHONIOENCODING=utf8 ./ret2win.py [!] Pwntools does not support 32-bit Python. Use a 64-bit release. [+] Starting local process &amp;#39;./ret2win32&amp;#39;: pid 26910 ret2win by ROP Emporium x86 For my first trick, I will attempt to fit 56 bytes of user input into 32 bytes of stack buffer! What could possibly go wrong? You there, may I have your input please? And don&amp;#39;t worry about null bytes, we&amp;#39;re using read()! &amp;gt; Thank you!</description>
     </item>
     
     <item>
@@ -70,7 +70,7 @@ $ nmap -T4 -sV 10.</description>
       
       <guid>https://www.burso.eu/posts/blue/</guid>
       <description>Hello everyone, today we look at the CTF with MS17-010 vulnerability. So let&amp;rsquo;s start with nmap scan.
-$ nmap -sV -p0-1000 --script vuln 10.10.223.243 Starting Nmap 7.80 ( https://nmap.org ) at 2020-02-12 14:40 CET Nmap scan report for 10.10.223.243 Host is up (0.043s latency). Not shown: 998 closed ports PORT STATE SERVICE VERSION 135/tcp open msrpc Microsoft Windows RPC |_clamav-exec: ERROR: Script execution failed (use -d to debug) 139/tcp open netbios-ssn Microsoft Windows netbios-ssn |_clamav-exec: ERROR: Script execution failed (use -d to debug) 445/tcp open microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP) |_clamav-exec: ERROR: Script execution failed (use -d to debug) Service Info: Host: JON-PC; OS: Windows; CPE: cpe:/o:microsoft:windows   Host script results: |_samba-vuln-cve-2012-1182: NT_STATUS_ACCESS_DENIED |_smb-vuln-ms10-054: false |_smb-vuln-ms10-061: NT_STATUS_ACCESS_DENIED | smb-vuln-ms17-010: | VULNERABLE: | Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010) | State: VULNERABLE | IDs: CVE:CVE-2017-0143 | Risk factor: HIGH | A critical remote code execution vulnerability exists in Microsoft SMBv1 | servers (ms17-010).</description>
+$ nmap -sV -p0-1000 --script vuln 10.10.223.243 Starting Nmap 7.80 ( https://nmap.org ) at 2020-02-12 14:40 CET Nmap scan report for 10.10.223.243 Host is up (0.043s latency). Not shown: 998 closed ports PORT STATE SERVICE VERSION 135/tcp open msrpc Microsoft Windows RPC |_clamav-exec: ERROR: Script execution failed (use -d to debug) 139/tcp open netbios-ssn Microsoft Windows netbios-ssn |_clamav-exec: ERROR: Script execution failed (use -d to debug) 445/tcp open microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP) |_clamav-exec: ERROR: Script execution failed (use -d to debug) Service Info: Host: JON-PC; OS: Windows; CPE: cpe:/o:microsoft:windows Host script results: |_samba-vuln-cve-2012-1182: NT_STATUS_ACCESS_DENIED |_smb-vuln-ms10-054: false |_smb-vuln-ms10-061: NT_STATUS_ACCESS_DENIED | smb-vuln-ms17-010: | VULNERABLE: | Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010) | State: VULNERABLE | IDs: CVE:CVE-2017-0143 | Risk factor: HIGH | A critical remote code execution vulnerability exists in Microsoft SMBv1 | servers (ms17-010).</description>
     </item>
     
     <item>
@@ -80,7 +80,7 @@ $ nmap -sV -p0-1000 --script vuln 10.10.223.243 Starting Nmap 7.80 ( https://nma
       
       <guid>https://www.burso.eu/posts/bookface/</guid>
       <description>Before we start, read more about following tools &amp;amp; vulnerabilities. It will contains in this CTF
- hydra screen - CVE-2017-5618 knock  and also you can read more about additional security method called port knocking
+hydra screen - CVE-2017-5618 knock and also you can read more about additional security method called port knocking
 So let&amp;rsquo;s start as usual with nmap.
 nmap -F --top-ports 10 -sV 10.10.219.90 Starting Nmap 7.80 ( https://nmap.org ) at 2020-02-10 16:37 CET Stats: 0:00:07 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan Service scan Timing: About 0.</description>
     </item>
@@ -95,7 +95,7 @@ nmap -F --top-ports 10 -sV 10.10.219.90 Starting Nmap 7.80 ( https://nmap.org ) 
 NOTICE: (SPOILER!!) If you would like to solve it by yourself, don&amp;rsquo;t read this post!
 [Task 1] First question is pretty simple. Open the article and you can find the answer
 Access the web server, who robbed the bank?
- spiderman  [Task 2] $ curl http://10.10.86.172/media/system/js/mootools-more.js 2&amp;gt;/dev/null | grep MooTools.</description>
+spiderman [Task 2] $ curl http://10.10.86.172/media/system/js/mootools-more.js 2&amp;gt;/dev/null | grep MooTools.More MooTools.More={version:&amp;#34;1.4.0.1&amp;#34;,build:&amp;#34;a4244edf2aa97ac8a196fc96082dd35af1abab87&amp;#34;};(function(){Events.Pseudos=function(h,e,f){var d=&amp;#34;_monitorEvents:&amp;#34;;var c=function(i){return{store:i.</description>
     </item>
     
     <item>
@@ -105,7 +105,7 @@ Access the web server, who robbed the bank?
       
       <guid>https://www.burso.eu/posts/impossible-password/</guid>
       <description>Welcome here in new year, I would like to introduce one of easy CTF in reverse engineering category
- radare2 [gdb]  $ r2 ./impossible_password.bin [0x004006a0]&amp;gt; aaa ... [0x004006a0]&amp;gt; afl 0x004006a0 1 41 entry0 0x00400610 1 6 sym.imp.__libc_start_main 0x004005f0 1 6 sym.imp.putchar 0x00400600 1 6 sym.imp.printf 0x00400620 1 6 sym.imp.srand 0x00400630 1 6 sym.imp.strcmp 0x00400650 1 6 sym.imp.time 0x00400660 1 6 sym.imp.malloc 0x00400670 1 6 sym.imp.__isoc99_scanf 0x00400680 1 6 sym.imp.exit 0x00400690 1 6 sym.</description>
+radare2 [gdb] $ r2 ./impossible_password.bin [0x004006a0]&amp;gt; aaa ... [0x004006a0]&amp;gt; afl 0x004006a0 1 41 entry0 0x00400610 1 6 sym.imp.__libc_start_main 0x004005f0 1 6 sym.imp.putchar 0x00400600 1 6 sym.imp.printf 0x00400620 1 6 sym.imp.srand 0x00400630 1 6 sym.imp.strcmp 0x00400650 1 6 sym.imp.time 0x00400660 1 6 sym.imp.malloc 0x00400670 1 6 sym.imp.__isoc99_scanf 0x00400680 1 6 sym.imp.exit 0x00400690 1 6 sym.</description>
     </item>
     
     <item>
@@ -116,7 +116,7 @@ Access the web server, who robbed the bank?
       <guid>https://www.burso.eu/posts/citrix-vulnerability/</guid>
       <description>NOTICE: Educational purposes only!
 Hi, I want to show you how easy it is to find a vulnerable server on the internet. Okey guys, so now, firstly we need to have some TOR client for anonymity ;) Before we begin, look at the following tools
- tor nyx proxychains-ng shodan curl nmap  $ tor &amp;amp; $ nyx -i 127.0.0.1:9052 Then we can test, if the tor is working correctly with proxychains</description>
+tor nyx proxychains-ng shodan curl nmap $ tor &amp;amp; $ nyx -i 127.0.0.1:9052 Then we can test, if the tor is working correctly with proxychains</description>
     </item>
     
     <item>
@@ -126,7 +126,7 @@ Hi, I want to show you how easy it is to find a vulnerable server on the interne
       
       <guid>https://www.burso.eu/posts/osce-prologue/</guid>
       <description>If you want to register to CTP, you will need something they call Registration Code and Secret Key. So firstly, there is interesting file /fc4.js
-function fc4me(srvstr) {   if(!document.pleazfc4me.email.value || !document.pleazfc4me.securitystring.value) {  alert(&amp;#34;Please fill in all the required fields!&amp;#34;);  return false;  }  if(document.pleazfc4me.securitystring.value != hexMD5(&amp;#34;\x74\x72\x79\x68\x61\x72\x64\x65\x72&amp;#34;+srvstr)) {  alert(&amp;#34;Registration Authorization String not accepted! Try Harder! &amp;#34;);  return false;  } else {  document.pleazfc4me.submit();  }  } So all you need to do is setup some js variables in browser console and call fc4me(srvstr)</description>
+function fc4me(srvstr) { if(!document.pleazfc4me.email.value || !document.pleazfc4me.securitystring.value) { alert(&amp;#34;Please fill in all the required fields!&amp;#34;); return false; } if(document.pleazfc4me.securitystring.value != hexMD5(&amp;#34;\x74\x72\x79\x68\x61\x72\x64\x65\x72&amp;#34;+srvstr)) { alert(&amp;#34;Registration Authorization String not accepted! Try Harder! &amp;#34;); return false; } else { document.pleazfc4me.submit(); } } So all you need to do is setup some js variables in browser console and call fc4me(srvstr)</description>
     </item>
     
     <item>
@@ -146,7 +146,16 @@ function fc4me(srvstr) {   if(!document.pleazfc4me.email.value || !document.plea
       <guid>https://www.burso.eu/posts/grsec-patch-size-overflow/</guid>
       <description>I think you sure know linux kernel patches from grsecurity. In follow tweet you can read about size overflow in patch from grsec.
 This is the fail in the @grsecurity patch. How did this pass review? ... a security patchset has code review, right? pic.twitter.com/gincZXdQrU
-&amp;mdash; Hector Martin (@marcan42) April 25, 2016  So what is the problem in this patch? When you change int (signed value) to size_t (unsigned value), you have to be sure you are saving unsigned value.</description>
+&amp;mdash; Hector Martin (@marcan42) April 25, 2016 So what is the problem in this patch? When you change int (signed value) to size_t (unsigned value), you have to be sure you are saving unsigned value.</description>
+    </item>
+    
+    <item>
+      <title>.prielom #1</title>
+      <link>https://www.burso.eu/posts/prielom-1/</link>
+      <pubDate>Tue, 06 Jan 1998 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.burso.eu/posts/prielom-1/</guid>
+      <description>::::::::::. :::::::.. :::.,:::::: ::: ... . : `;;;```.;;;;;;;``;;;; ;;;;;;;&amp;#39;&amp;#39;&amp;#39;&amp;#39; ;;; .;;;;;;;. ;;,. ;;; `]]nnn]]&amp;#39; [[[,/[[[&amp;#39; [[[ [[cccc [[[ ,[[ \[[,[[[[, ,[[[[, $$$&amp;#34;&amp;#34; $$$$$$c $$$ $$&amp;#34;&amp;#34;&amp;#34;&amp;#34; $$&amp;#39; $$$, $$$$$$$$$$$&amp;#34;$$$ 888o 888b &amp;#34;88bo,888 888oo,__ o88oo,.__&amp;#34;888,_ _,88P888 Y88&amp;#34; 888o YMMMb MMMM &amp;#34;W&amp;#34; MMM &amp;#34;&amp;#34;&amp;#34;&amp;#34;YUMMM&amp;#34;&amp;#34;&amp;#34;&amp;#34;YUMMM &amp;#34;YMMMMMP&amp;#34; MMM M&amp;#39; &amp;#34;MMM prielom #1, 6.1.98, prielom(at)hysteria.sk, http://hysteria.sk/prielom/ intro vianocny kapor bol super, ze ? ked som na stedry den tlacil do hlavy vyprazaneho kapra, bola este fajn atmoska, ked som sa vsak potom vramci po-vianocnych rodinnych navstev musel pozerat na spontanne-slintajucu babicku, sxizoidnu tetu a ozraleho stryka a potom nastupit po novom roku do roboty, bolo po nalade.</description>
     </item>
     
   </channel>

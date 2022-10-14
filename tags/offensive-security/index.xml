@@ -17,7 +17,7 @@
       
       <guid>https://www.burso.eu/posts/osce-prologue/</guid>
       <description>If you want to register to CTP, you will need something they call Registration Code and Secret Key. So firstly, there is interesting file /fc4.js
-function fc4me(srvstr) {   if(!document.pleazfc4me.email.value || !document.pleazfc4me.securitystring.value) {  alert(&amp;#34;Please fill in all the required fields!&amp;#34;);  return false;  }  if(document.pleazfc4me.securitystring.value != hexMD5(&amp;#34;\x74\x72\x79\x68\x61\x72\x64\x65\x72&amp;#34;+srvstr)) {  alert(&amp;#34;Registration Authorization String not accepted! Try Harder! &amp;#34;);  return false;  } else {  document.pleazfc4me.submit();  }  } So all you need to do is setup some js variables in browser console and call fc4me(srvstr)</description>
+function fc4me(srvstr) { if(!document.pleazfc4me.email.value || !document.pleazfc4me.securitystring.value) { alert(&amp;#34;Please fill in all the required fields!&amp;#34;); return false; } if(document.pleazfc4me.securitystring.value != hexMD5(&amp;#34;\x74\x72\x79\x68\x61\x72\x64\x65\x72&amp;#34;+srvstr)) { alert(&amp;#34;Registration Authorization String not accepted! Try Harder! &amp;#34;); return false; } else { document.pleazfc4me.submit(); } } So all you need to do is setup some js variables in browser console and call fc4me(srvstr)</description>
     </item>
     
   </channel>

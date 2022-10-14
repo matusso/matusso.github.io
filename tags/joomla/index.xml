@@ -20,7 +20,7 @@
 NOTICE: (SPOILER!!) If you would like to solve it by yourself, don&amp;rsquo;t read this post!
 [Task 1] First question is pretty simple. Open the article and you can find the answer
 Access the web server, who robbed the bank?
- spiderman  [Task 2] $ curl http://10.10.86.172/media/system/js/mootools-more.js 2&amp;gt;/dev/null | grep MooTools.</description>
+spiderman [Task 2] $ curl http://10.10.86.172/media/system/js/mootools-more.js 2&amp;gt;/dev/null | grep MooTools.More MooTools.More={version:&amp;#34;1.4.0.1&amp;#34;,build:&amp;#34;a4244edf2aa97ac8a196fc96082dd35af1abab87&amp;#34;};(function(){Events.Pseudos=function(h,e,f){var d=&amp;#34;_monitorEvents:&amp;#34;;var c=function(i){return{store:i.</description>
     </item>
     
   </channel>

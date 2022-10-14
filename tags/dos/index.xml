@@ -18,7 +18,16 @@
       <guid>https://www.burso.eu/posts/grsec-patch-size-overflow/</guid>
       <description>I think you sure know linux kernel patches from grsecurity. In follow tweet you can read about size overflow in patch from grsec.
 This is the fail in the @grsecurity patch. How did this pass review? ... a security patchset has code review, right? pic.twitter.com/gincZXdQrU
-&amp;mdash; Hector Martin (@marcan42) April 25, 2016  So what is the problem in this patch? When you change int (signed value) to size_t (unsigned value), you have to be sure you are saving unsigned value.</description>
+&amp;mdash; Hector Martin (@marcan42) April 25, 2016 So what is the problem in this patch? When you change int (signed value) to size_t (unsigned value), you have to be sure you are saving unsigned value.</description>
+    </item>
+    
+    <item>
+      <title>.prielom #1</title>
+      <link>https://www.burso.eu/posts/prielom-1/</link>
+      <pubDate>Tue, 06 Jan 1998 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.burso.eu/posts/prielom-1/</guid>
+      <description>::::::::::. :::::::.. :::.,:::::: ::: ... . : `;;;```.;;;;;;;``;;;; ;;;;;;;&amp;#39;&amp;#39;&amp;#39;&amp;#39; ;;; .;;;;;;;. ;;,. ;;; `]]nnn]]&amp;#39; [[[,/[[[&amp;#39; [[[ [[cccc [[[ ,[[ \[[,[[[[, ,[[[[, $$$&amp;#34;&amp;#34; $$$$$$c $$$ $$&amp;#34;&amp;#34;&amp;#34;&amp;#34; $$&amp;#39; $$$, $$$$$$$$$$$&amp;#34;$$$ 888o 888b &amp;#34;88bo,888 888oo,__ o88oo,.__&amp;#34;888,_ _,88P888 Y88&amp;#34; 888o YMMMb MMMM &amp;#34;W&amp;#34; MMM &amp;#34;&amp;#34;&amp;#34;&amp;#34;YUMMM&amp;#34;&amp;#34;&amp;#34;&amp;#34;YUMMM &amp;#34;YMMMMMP&amp;#34; MMM M&amp;#39; &amp;#34;MMM prielom #1, 6.1.98, prielom(at)hysteria.sk, http://hysteria.sk/prielom/ intro vianocny kapor bol super, ze ? ked som na stedry den tlacil do hlavy vyprazaneho kapra, bola este fajn atmoska, ked som sa vsak potom vramci po-vianocnych rodinnych navstev musel pozerat na spontanne-slintajucu babicku, sxizoidnu tetu a ozraleho stryka a potom nastupit po novom roku do roboty, bolo po nalade.</description>
     </item>
     
   </channel>
