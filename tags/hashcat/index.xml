@@ -5,10 +5,12 @@
     <link>https://www.burso.eu/tags/hashcat/</link>
     <description>Recent content in hashcat on .burso | blog about ctf &amp; anything else</description>
     <image>
+      <title>.burso | blog about ctf &amp; anything else</title>
       <url>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Wed, 12 Feb 2020 14:35:31 +0100</lastBuildDate><atom:link href="https://www.burso.eu/tags/hashcat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blue</title>

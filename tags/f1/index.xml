@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>f1 on .burso | blog about ctf &amp; anything else</title>
+    <link>https://www.burso.eu/tags/f1/</link>
+    <description>Recent content in f1 on .burso | blog about ctf &amp; anything else</description>
+    <image>
+      <title>.burso | blog about ctf &amp; anything else</title>
+      <url>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 02 Jun 2023 16:25:43 +0100</lastBuildDate><atom:link href="https://www.burso.eu/tags/f1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to fix Formula1 or how to make F1 even more exciting sport.</title>
+      <link>https://www.burso.eu/posts/how-to-fix-f1/</link>
+      <pubDate>Fri, 02 Jun 2023 16:25:43 +0100</pubDate>
+      
+      <guid>https://www.burso.eu/posts/how-to-fix-f1/</guid>
+      <description>I have one idea on how to fix Formula 1. If we want racing to be more fair, we should have the same cars for every driver.
+So, the idea is that drivers&amp;rsquo; points will be counted as they are now, with a certain amount of points awarded for each race and position. However, the constructor championship will not be calculated as the sum of drivers&amp;rsquo; points in the same team.</description>
+    </item>
+    
+  </channel>
+</rss>

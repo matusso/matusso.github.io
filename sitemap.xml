@@ -3,15 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.burso.eu/</loc>
-    <lastmod>2022-05-09T16:42:00+01:00</lastmod>
+    <lastmod>2023-06-02T16:25:43+01:00</lastmod>
+  </url><url>
+    <loc>https://www.burso.eu/categories/</loc>
+    <lastmod>2023-06-02T16:25:43+01:00</lastmod>
+  </url><url>
+    <loc>https://www.burso.eu/tags/f1/</loc>
+    <lastmod>2023-06-02T16:25:43+01:00</lastmod>
+  </url><url>
+    <loc>https://www.burso.eu/categories/f1/</loc>
+    <lastmod>2023-06-02T16:25:43+01:00</lastmod>
+  </url><url>
+    <loc>https://www.burso.eu/posts/how-to-fix-f1/</loc>
+    <lastmod>2023-06-02T16:25:43+01:00</lastmod>
+  </url><url>
+    <loc>https://www.burso.eu/posts/</loc>
+    <lastmod>2023-06-02T16:25:43+01:00</lastmod>
+  </url><url>
+    <loc>https://www.burso.eu/tags/</loc>
+    <lastmod>2023-06-02T16:25:43+01:00</lastmod>
   </url><url>
     <loc>https://www.burso.eu/tags/api/</loc>
     <lastmod>2022-05-09T16:42:00+01:00</lastmod>
   </url><url>
     <loc>https://www.burso.eu/tags/big-ip/</loc>
-    <lastmod>2022-05-09T16:42:00+01:00</lastmod>
-  </url><url>
-    <loc>https://www.burso.eu/categories/</loc>
     <lastmod>2022-05-09T16:42:00+01:00</lastmod>
   </url><url>
     <loc>https://www.burso.eu/tags/cve-2022-1388/</loc>
@@ -23,13 +38,7 @@
     <loc>https://www.burso.eu/posts/big-ip-f5/</loc>
     <lastmod>2022-05-09T16:42:00+01:00</lastmod>
   </url><url>
-    <loc>https://www.burso.eu/posts/</loc>
-    <lastmod>2022-05-09T16:42:00+01:00</lastmod>
-  </url><url>
     <loc>https://www.burso.eu/tags/rest/</loc>
-    <lastmod>2022-05-09T16:42:00+01:00</lastmod>
-  </url><url>
-    <loc>https://www.burso.eu/tags/</loc>
     <lastmod>2022-05-09T16:42:00+01:00</lastmod>
   </url><url>
     <loc>https://www.burso.eu/categories/vulns/</loc>

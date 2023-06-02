@@ -5,10 +5,12 @@
     <link>https://www.burso.eu/tags/dos/</link>
     <description>Recent content in DoS on .burso | blog about ctf &amp; anything else</description>
     <image>
+      <title>.burso | blog about ctf &amp; anything else</title>
       <url>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Fri, 29 Apr 2016 20:58:10 +0100</lastBuildDate><atom:link href="https://www.burso.eu/tags/dos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>.grsec patch size_overflow</title>
@@ -17,8 +19,9 @@
       
       <guid>https://www.burso.eu/posts/grsec-patch-size-overflow/</guid>
       <description>I think you sure know linux kernel patches from grsecurity. In follow tweet you can read about size overflow in patch from grsec.
-This is the fail in the @grsecurity patch. How did this pass review? ... a security patchset has code review, right? pic.twitter.com/gincZXdQrU
-&amp;mdash; Hector Martin (@marcan42) April 25, 2016 So what is the problem in this patch? When you change int (signed value) to size_t (unsigned value), you have to be sure you are saving unsigned value.</description>
+Tweet was in the meanwhile deleted.
+So what is the problem in this patch? When you change int (signed value) to size_t (unsigned value), you have to be sure you are saving unsigned value.
+room = N_TTY_BUF_SIZE - (ldata-&amp;gt;read_head - tail); And what happens when the right site will have negative value?</description>
     </item>
     
     <item>

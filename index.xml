@@ -5,11 +5,23 @@
     <link>https://www.burso.eu/</link>
     <description>Recent content on .burso | blog about ctf &amp; anything else</description>
     <image>
+      <title>.burso | blog about ctf &amp; anything else</title>
       <url>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://www.burso.eu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 09 May 2022 16:42:00 +0100</lastBuildDate><atom:link href="https://www.burso.eu/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 02 Jun 2023 16:25:43 +0100</lastBuildDate><atom:link href="https://www.burso.eu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to fix Formula1 or how to make F1 even more exciting sport.</title>
+      <link>https://www.burso.eu/posts/how-to-fix-f1/</link>
+      <pubDate>Fri, 02 Jun 2023 16:25:43 +0100</pubDate>
+      
+      <guid>https://www.burso.eu/posts/how-to-fix-f1/</guid>
+      <description>I have one idea on how to fix Formula 1. If we want racing to be more fair, we should have the same cars for every driver.
+So, the idea is that drivers&amp;rsquo; points will be counted as they are now, with a certain amount of points awarded for each race and position. However, the constructor championship will not be calculated as the sum of drivers&amp;rsquo; points in the same team.</description>
+    </item>
+    
     <item>
       <title>F5 BIG-IP iControl REST vulnerability CVE-2022-1388</title>
       <link>https://www.burso.eu/posts/big-ip-f5/</link>
@@ -145,8 +157,9 @@ function fc4me(srvstr) { if(!document.pleazfc4me.email.value || !document.pleazf
       
       <guid>https://www.burso.eu/posts/grsec-patch-size-overflow/</guid>
       <description>I think you sure know linux kernel patches from grsecurity. In follow tweet you can read about size overflow in patch from grsec.
-This is the fail in the @grsecurity patch. How did this pass review? ... a security patchset has code review, right? pic.twitter.com/gincZXdQrU
-&amp;mdash; Hector Martin (@marcan42) April 25, 2016 So what is the problem in this patch? When you change int (signed value) to size_t (unsigned value), you have to be sure you are saving unsigned value.</description>
+Tweet was in the meanwhile deleted.
+So what is the problem in this patch? When you change int (signed value) to size_t (unsigned value), you have to be sure you are saving unsigned value.
+room = N_TTY_BUF_SIZE - (ldata-&amp;gt;read_head - tail); And what happens when the right site will have negative value?</description>
     </item>
     
     <item>
